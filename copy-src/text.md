@@ -60,7 +60,7 @@ sexual nature:
 
 Can occur on the basis of:
 
-::: {custom-style="Cols-3"}
+::: {custom-style="Cols-2"}
 - Race
 - Color
 - Sex *
@@ -104,8 +104,9 @@ harassment prevention and complaint processing policy that includes, in
 particular, a section on behaviour that manifests itself in the form of **verbal
 comments, actions or gestures of a sexual nature**.”
 
-- Bill 176 Section 81.19
-
+::: {custom-style="Attribution"}
+Bill 176 Section 81.19
+:::
 
 ## Standards and Benefits
 
@@ -133,12 +134,18 @@ You must be given **written** notice if you have worked for more than 3 months.
 
 How much notice?
 
- Length of uninterrupted service    Notice Period
----------------------------------  ---------------
- 3 months - 1 year                  1 week
- 1 year - 5 years                   2 weeks
- 5 - 10 years                       4 weeks
- 10 years +                         8 weeks
++---------------------------+----------------+
+| Length of                 | Notice Period  |
+| uninterrupted service     |                |
++===========================+================+
+| 3 months - 1 year         | 1 week         |
++---------------------------+----------------+
+| 1 year - 5 years          | 2 weeks        |
++---------------------------+----------------+
+| 5 - 10 years              | 4 weeks        |
++---------------------------+----------------+
+| 10 years +                | 8 weeks        |
++---------------------------+----------------+
 
 - If you are not given sufficient notice, the employer must pay you an amount
   equal to what would have been earned during the notice period.
