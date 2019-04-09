@@ -20,8 +20,6 @@ var inddFilename = "KYR-Pamphlet.indd";
 var exportDirectory = "pdfs"; // must exist!
 // //////////////
 
-/* global app ExportFormat SaveOptions */
-
 var path = app.activeScript.path + "/";
 var exportPath = path + exportDirectory + "/";
 var inddFile = new File("".concat(path).concat(inddFilename)); // we'd rather polyfill this with babel, but the extendscript preset doesn't do it
@@ -73,8 +71,7 @@ _forEach(locales, function (locale) {
   var exportFileName = "".concat(exportPath, "/").concat(locale, "-").concat(getFormattedTime(now), ".pdf");
   doc.exportFile(ExportFormat.PDF_TYPE, new File(exportFileName));
   doc.close(SaveOptions.NO);
-}); // doc.links.everyItem().update();
-// //////////////////////////////////////////
+}); // //////////////////////////////////////////
 
 
 function pad(num) {

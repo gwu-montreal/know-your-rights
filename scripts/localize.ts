@@ -2,10 +2,8 @@
 const locales = ["la"];
 const inddFilename = "KYR-Pamphlet.indd";
 const exportDirectory = "pdfs"; // must exist!
-
 // //////////////
 
-/* global app ExportFormat SaveOptions */
 const path = app.activeScript.path + "/";
 const exportPath = path + exportDirectory + "/";
 const inddFile = new File(`${path}${inddFilename}`);
@@ -46,7 +44,7 @@ locales.forEach(locale => {
   for (let i = 0; i < doc.links.length; i++) {
     const link = doc.links[i];
     if (link.name.endsWith(".icml")) {
-      const p = link.filePath;
+      const p = link.filePath as string;
       const newFile = new File(
         `${p.substring(0, p.indexOf(".icml"))}-${locale}.icml`
       );
@@ -62,16 +60,14 @@ locales.forEach(locale => {
   doc.close(SaveOptions.NO);
 });
 
-// doc.links.everyItem().update();
-
 // //////////////////////////////////////////
 
-function pad(num) {
+function pad(num: number) {
   const str = num.toString();
   return ("00" + str).substring(str.length);
 }
 
-function getFormattedTime(date) {
+function getFormattedTime(date: Date) {
   return (
     date.getFullYear() +
     "-" +

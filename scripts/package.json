@@ -6,10 +6,12 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
-    "babel-preset-extendscript": "^1.0.2"
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-preset-extendscript": "^1.0.2",
+    "types-for-adobe": "^1.5.0"
   },
   "scripts": {
-    "compile": "babel localize.js -o ../dist.jsx",
+    "compile": "babel --extensions '.ts' localize.ts -o ../dist.jsx",
     "watch": "npm run compile -- -w"
   }
 }
