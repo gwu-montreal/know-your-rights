@@ -1,20 +1,68 @@
-/* global app ExportFormat SaveOptions */
+// configure these here (for now)
+const locales = ["la"];
+const inddFilename = "KYR-Pamphlet.indd";
+const exportDirectory = "pdfs"; // must exist!
 
+// //////////////
+
+/* global app ExportFormat SaveOptions */
+const path = app.activeScript.path + "/";
+const exportPath = path + exportDirectory + "/";
+const inddFile = new File(`${path}${inddFilename}`);
+
+// we'd rather polyfill this with babel, but the extendscript preset doesn't do it
+if (!String.prototype.endsWith) {
+  String.prototype.endsWith = function(search, this_len) {
+    if (this_len === undefined || this_len > this.length) {
+      this_len = this.length;
+    }
+    return this.substring(this_len - search.length, this_len) === search;
+  };
+}
+// ////////////////////
+
+// indesign always claims that links are modified -- seems based on mtime rather
+// than content
 app.linkingPreferences.checkLinksAtOpen = false;
 
-const path = app.activeScript.path;
-const file = new File(path + "/KYR-Pamphlet.indd");
+const now = new Date();
 
-app.open(file);
-const doc = app.activeDocument;
+// Main doc
+function exportMain() {
+  app.open(inddFile);
+  const doc = app.activeDocument;
+  doc.links.everyItem().update();
+  const exportFileName = `${exportPath}/en-${getFormattedTime(now)}.pdf`;
+  doc.exportFile(ExportFormat.PDF_TYPE, new File(exportFileName));
+  doc.close(SaveOptions.NO);
+}
+exportMain();
 
-doc.links.everyItem().update();
+// Locales
+locales.forEach(locale => {
+  app.open(inddFile);
+  const doc = app.activeDocument;
 
-const exportFileName = `${path}/export-${getFormattedTime(new Date())}.pdf`;
+  for (let i = 0; i < doc.links.length; i++) {
+    const link = doc.links[i];
+    if (link.name.endsWith(".icml")) {
+      const p = link.filePath;
+      const newFile = new File(
+        `${p.substring(0, p.indexOf(".icml"))}-${locale}.icml`
+      );
+      if (newFile.exists) {
+        link.relink(newFile);
+      }
+    }
+  }
 
-doc.exportFile(ExportFormat.PDF_TYPE, new File(exportFileName));
+  const exportFileName = `${exportPath}/${locale}-${getFormattedTime(now)}.pdf`;
 
-app.documents.everyItem().close(SaveOptions.NO);
+  doc.exportFile(ExportFormat.PDF_TYPE, new File(exportFileName));
+  doc.close(SaveOptions.NO);
+});
+
+// doc.links.everyItem().update();
 
 // //////////////////////////////////////////
 
@@ -23,7 +71,6 @@ function pad(num) {
   return ("00" + str).substring(str.length);
 }
 
-// https://stackoverflow.com/a/44485468
 function getFormattedTime(date) {
   return (
     date.getFullYear() +
