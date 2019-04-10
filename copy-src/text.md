@@ -108,6 +108,10 @@ comments, actions or gestures of a sexual nature**.”
 Bill 176 Section 81.19
 :::
 
+In other words, harassment policies must **specifically address sexual
+harassment**.
+
+
 ## Standards and Benefits
 
 Employers cannot give you worse working conditions or benefits than someone else
@@ -264,13 +268,107 @@ Paid days off include:
 - **Thanksgiving** - 2nd Monday of October
 - **Christmas Day** - December 25
 
-If a statutory holiday falls on a non-work day another day will be subsituted.
+If a statutory holiday falls on a non-work day **another day will be subsituted**.
 
 ### Exceptions
 
 - An employee needs to have worked at least 30 days to be entitled to holiday
   pay
 - Statutory holidays do not apply to contract workers
+
+
+## Recourse
+
+Your employer or manager **cannot** dismiss, suspend or transfer, discriminate
+against, or punish you
+
+- for exercising any of the rights covered under the Labour Act
+- for filing a complaint with the Commission des Normes du Travail, or providing
+  evidence for an investigation
+- on the grounds that you are pregnant or paying child support
+- because you refused to do overtime in order to look after your child or close
+  relative (if you are their primary caretaker)
+- because you’ve reached the age of retirement, or to avoid meeting obligations
+  under the Voluntary Retirement Savings Plan Act
+
+If your rights are violated, you have up to **45 days** to make a complaint to
+the Commission des normes du travail.
+
+
+## Intellectual Property
+
+In the absence of an agreement to the contrary, the copyright to works created
+by **an employee** in the course of their employment will automatically be
+**owned by the employer**.
+
+- Be careful to avoid using employer property (computers, etc.) to create works
+  outside of the job description/work hours.
+
+
+In the absence of an agreement **in writing** to the contrary, the copyright to
+works created by an independent contractor **remain their own**.
+
+- Before signing an agreement, think carefully about whether giving your client
+  ownership over your IP will prevent you from being able to do your work as you
+  normally do.
+
+
+## NDAs, non-competes, etc.
+### 3 common restrictive covenants in contracts:
+
+- **Non-hire**: restricts a worker from hiring or working with other
+  employees/contractors of the employer/client
+- **Non-solicit**: restricts a worker from soliciting clients (and sometimes
+  suppliers or others) of the employer/client
+- **Non-competition**: restricts a worker from working for another business that
+  competes with the employer/client, and this could include as a freelancer
+
+With all of 3 of these clauses, it is important to **understand the scope**.
+Does it continue after the working relationship ends, and for how long?
+Non-competition provisions should specify what constitutes a competitive
+business, and where the restriction applies (city, province, country, online,
+etc).
+
+**Read contracts before you sign them**. Make sure you understand what the
+contract is saying and that it matches your understanding of the agreed-upon
+terms.
+
+### Every contract is **negotiable**, but you need **leverage**!
+
+
+## Unionization Rights
+
+#### Every employee has the right to **join**, **form**, or **participate** in a **union** of their choice.
+
+#### Restrictions on employers
+
+- no employer or employer’s association (e.g. La Guilde, ESA) can try to
+  dominate, hinder, finance, or participate in the formation or activities of a
+  union
+- employers are not allowed to threaten or intimidate you to prevent you from
+  joining a union
+- employers are not allowed to refuse to hire you, fire you, or use any other
+  form of punishment against you because you have joined or participated in
+  union activities
+- if they claim to be firing/punishing you for other reasons, they have to
+  **prove it** (that is, the burden of proof lies with the employer)
+
+#### Restrictions on union activities
+
+- you are not allowed to ask people to join your union during working hours
+- you can’t hold union meetings at the workplace unless you have the permission
+  of your employer
+
+You have **30 days** to file a complaint with the Labour Tribunal.
+
+### Benefits of collective action
+
+1. Stronger negotiating power to win improvements compared to individual action
+2. Very few rights and protections for freelance workers in Labor Law
+3. Can transform and improve the whole industry for every worker
+4. Re-balance the employer / employee relationship
+5. Democratize company politics and policies
+6. Stop employee misclassification and loss of benefits
 
 
 ## Glossary

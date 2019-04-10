@@ -57,7 +57,7 @@
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Who Are We?</Content>
+    <Content>Quienes somos?</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -69,7 +69,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Some info about us</Content>
+    <Content>this is rad</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -87,13 +87,13 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>About S’ATTAQ</Content>
+    <Content>hey it is S’ATTAQ</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Some info about us</Content>
+    <Content>wow it works</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
