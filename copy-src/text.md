@@ -32,7 +32,7 @@ You have the right to refuse work if:
 - You have worked more than **12 hours** in a **24 hour period** on a variable
   or non-continuous schedule.
 - You have worked more than **50 hours** in a week.
-- You were not given at least **5 days** notice.
+- You were not given at least **5 days** notice, unless the nature of the job requires that you remain available (for example emergency services).
 
 ::: {custom-style="Para-Bold"}
 Your employer is **not allowed** to fire you, take away benefits, reduce wages
@@ -63,7 +63,7 @@ Can occur on the basis of:
 ::: {custom-style="Cols-2"}
 - Race
 - Color
-- Sex *
+- Sex
 - Pregnancy
 - Civil status
 - Age
@@ -73,9 +73,8 @@ Can occur on the basis of:
 - Ethnic origin
 - Language
 - Sexual orientation
+- Gender identity or expression
 :::
-
-*Sex refers to ?
 
 ::: {custom-style="Para-Bold"}
 You have up to **2 years** to file a complaint.
@@ -155,6 +154,9 @@ How much notice?
   equal to what would have been earned during the notice period.
 - This amount, as well as **any amount owed for vacation or overtime**, must be
   paid **at the time of dismissal**.
+- If you have worked at least 2 years uninterrupted for the same employer, they cannot fire you without **"good and sufficient cause."** In other words they must prove that they had a serious reason for firing you. These reasons may include: dishonesty, insubordination, negligence, incompetence and bad performance. You have up to 45 days after dismissal to file a complaint with the CNESST.
+
+Note that these protections do **not** apply to employees who have worked for **less than 3 months.**
 
 #### Exceptions (when no notice is required):
 
@@ -190,7 +192,8 @@ You **can not** end the contract during a time that causes the client damage
 +-----------------------+--------------------+
 | Reason for Absence    | Leave (typical)    |
 +=======================+====================+
-| illness or injury     | - 26 weeks unpaid* |
+| illness or injury     | - 2 days paid      |
+|                       | - 26 weeks unpaid* |
 +-----------------------+--------------------+
 | family obligations    | - 2 days paid      |
 |                       | - 8 days unpaid    |
@@ -211,11 +214,12 @@ You **can not** end the contract during a time that causes the client damage
 +-----------------------+--------------------+
 | paternity leave       | - 5 weeks unpaid   |
 +-----------------------+--------------------+
-| parental leave        | - 52 weeks unpaid  |
+| parental leave***     | - 52 weeks unpaid  |
 +-----------------------+--------------------+
 
 *requires at least 3 months of uninterrupted service
 **close relatives includes parents, children, and siblings
+***parental leave can be taken in addition to maternity/paternity leave
 
 ::: {custom-style="Para-Bold"}
 Your employer is **not allowed** to **fire you**, **take away benefits**, or
@@ -248,7 +252,7 @@ https://bit.ly/2Na9hDW
 |                       | - 6% of wages earned     |
 +-----------------------+--------------------------+
 
-- indemnities are calculated based on the wages you earned during the previous
+- indemnities (additional sums of money that do not include wages) are calculated based on the wages you earned during the previous
   year
 - indemnities must be paid as a lump sum before the start of your vacation
 - an employee who is already entitled to 2 weeks can take **1 additional week of
@@ -313,7 +317,7 @@ works created by an independent contractor **remain their own**.
   normally do.
 
 
-## NDAs, non-competes, etc.
+## NDAs, non-competition, etc.
 ### 3 common restrictive covenants in contracts:
 
 - **Non-hire**: restricts a worker from hiring or working with other
@@ -393,3 +397,22 @@ You have **30 days** to file a complaint with the Labour Tribunal.
   references to these names
 
   https://www.cnt.gouv.qc.ca/en/accueil/index.html
+  
+- Educaloi
+
+Accessible introduction to a wide variety of legal topics
+
+https://www.educaloi.qc.ca
+
+- Government du Québec. "N-1.1 Act respecting to Labor Standards." 
+
+http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1
+
+- Government of Canada. "R.S.C., 1985, c. H-6 Canadian Human Rights Act."
+
+https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html
+
+- Longpre, Francis. "The Consequences of Fixed Term Contracts." Borden Lander Gervis. 
+
+http://blg.com/en/News-And-Publications/Publication_5112
+
