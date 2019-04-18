@@ -12,6 +12,6 @@ done
 
 echo "Creating HTML document."
 pandoc $(find copy-src/en -type f | sort) --template="web-template.html"\
-  -o "./docs/index.html" --metadata pagetitle="Know Your Rights!" -c "main.css"
+  -o "./docs/index.html" --metadata title="Know Your Rights!" -c "main.css"
 
 echo "Done."
