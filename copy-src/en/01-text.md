@@ -289,7 +289,7 @@ If a statutory holiday falls on a non-work day **another day will be subsituted*
 - Statutory holidays do not apply to contract workers
 
 
-## Recourse
+## Reprisals
 
 Your employer or manager **cannot** dismiss, suspend or transfer, discriminate
 against, or punish you
