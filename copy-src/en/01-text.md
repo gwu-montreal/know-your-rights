@@ -1,6 +1,6 @@
-## Employee or Freelancer?
+## Are You an Employee or a Freelancer?
 
-### How to tell the difference
+### Here's how to tell the difference.
 
 Your status is determined by the following six criteria:
 
@@ -14,7 +14,7 @@ Your status is determined by the following six criteria:
 
 ## Crunch and Overtime
 
-### For employees
+### For Employees:
 
 Overtime pay is due if you work more than your regular weekly hours.
 
@@ -32,14 +32,15 @@ You have the right to refuse work if:
 - You have worked more than **12 hours** in a **24 hour period** on a variable
   or non-continuous schedule.
 - You have worked more than **50 hours** in a week.
-- You were not given at least **5 days** notice, unless the nature of the job requires that you remain available (for example emergency services).
+- You were not given at least **5 days** notice, **unless** the nature of the job
+  requires that you remain available (for example, emergency services).
 
 ::: {custom-style="Para-Bold"}
 Your employer is **not allowed** to fire you, take away benefits, reduce wages
 or punish you in any other way for excerising your rights.
 :::
 
-### For freelancers
+### For Freelancers:
 
 Freelancers should include a **rush rate** in their contract.
 
@@ -89,14 +90,14 @@ Try to **document** incidents whenever possible:
 
 If your case is successful, the Labour Tribunal may order the employer to:
 
-1.  reinstate you if you've been fired
-2.  compensate you for lost wages
-3.  take reasonable action to put a stop to the harassment
-4.  pay punitive and moral damages
+- reinstate you if you've been fired
+- compensate you for lost wages
+- take reasonable action to put a stop to the harassment
+- pay punitive and moral damages
 
 ### Bill 176
 
-New additions to Quebec's labor code regarding harassment.
+New additions to Québec's labour code regarding harassment.
 
 “[Employers] must...adopt and make available to their employees a psychological
 harassment prevention and complaint processing policy that includes, in
@@ -131,7 +132,7 @@ This applies to:
 
 ## Termination
 
-### For employees
+### For Employees:
 
 You must be given **written** notice if you have worked for more than 3 months.
 
@@ -154,9 +155,16 @@ How much notice?
   equal to what would have been earned during the notice period.
 - This amount, as well as **any amount owed for vacation or overtime**, must be
   paid **at the time of dismissal**.
-- If you have worked at least 2 years uninterrupted for the same employer, they cannot fire you without **"good and sufficient cause."** In other words they must prove that they had a serious reason for firing you. These reasons may include: dishonesty, insubordination, negligence, incompetence and bad performance. You have up to 45 days after dismissal to file a complaint with the CNESST.
+- If you have worked at least 2 years uninterrupted for the same employer, they
+  cannot fire you without **"good and sufficient cause."** In other words,
+  **they must prove** that they had a serious reason for firing you. These
+  reasons may include: **dishonesty**, **insubordination**, **negligence**,
+  **incompetence** and **bad performance**. (See the glossary for definitions of
+  some of these terms.) You have **up to 45 days after dismissal** to file a
+  complaint with the CNESST.
 
-Note that these protections do **not** apply to employees who have worked for **less than 3 months.**
+Note that these protections do **not** apply to employees who have worked for
+**less than 3 months.**
 
 #### Exceptions (when no notice is required):
 
@@ -166,14 +174,13 @@ Note that these protections do **not** apply to employees who have worked for **
 
 ### Can contractors and freelancers quit early?
 
-**Yes**, even without the client's consent.
+**Yes**, even without the client's consent. But you need to have a serious
+reason:
 
-You must have a serious reason:
-
-- client repeatedly interferes with the work
-- client refuses to cooperate
-- client is abusive, disagreeable or impolite
-- client tries to change the terms of your contract
+- the client repeatedly interferes with the work
+- the client refuses to cooperate
+- the client is abusive, disagreeable or impolite
+- the client tries to change the terms of your contract
 
 Serious reasons **do not** include:
 
@@ -182,9 +189,8 @@ Serious reasons **do not** include:
 - the client is too demanding about performance
 - the client has not paid certain small costs
 
-You **can not** end the contract during a time that causes the client damage
-
-- For example, the day before a big deadline
+You **can't** end the contract during a time that causes the client damage — for
+example, the day before a big deadline.
 
 
 ## Leaves and Absences
@@ -217,14 +223,16 @@ You **can not** end the contract during a time that causes the client damage
 | parental leave***     | - 52 weeks unpaid  |
 +-----------------------+--------------------+
 
-*requires at least 3 months of uninterrupted service
-**close relatives includes parents, children, and siblings
-***parental leave can be taken in addition to maternity/paternity leave
+\* requires at least 3 months of uninterrupted service
+
+\*\* close relatives includes parents, children, and siblings
+
+\*\*\* parental leave can be taken in addition to maternity/paternity leave
 
 ::: {custom-style="Para-Bold"}
 Your employer is **not allowed** to **fire you**, **take away benefits**, or
 **reduce wages** if you are absent for any of these reasons for the allotted
-time
+time.
 :::
 
 Some conditions apply:
@@ -234,26 +242,26 @@ Some conditions apply:
   the reasons for your absence (for example, a doctor's note)
 
 Full list of leaves and absences, with conditions and obligations:
-https://bit.ly/2Na9hDW
+**https://bit.ly/2Na9hDW**
 
 
 ## Vacations
 
-+-----------------------+--------------------------+
-| Employment length     | Vacation & indemnity     |
-+=======================+==========================+
-| 1 year                | - 1 day/month of service |
-|                       | - 4% of wages earned     |
-+-----------------------+--------------------------+
-| 1 - 3 years           | - 2 weeks                |
-|                       | - 4% of wages earned     |
-+-----------------------+--------------------------+
-| 3 years or more       | - 3 weeks                |
-|                       | - 6% of wages earned     |
-+-----------------------+--------------------------+
++--------------------+--------------------------+
+| Employment length  | Vacation & indemnity     |
++====================+==========================+
+| 1 year             | - 1 day/month of service |
+|                    | - 4% of wages earned     |
++--------------------+--------------------------+
+| 1 - 3 years        | - 2 weeks                |
+|                    | - 4% of wages earned     |
++--------------------+--------------------------+
+| 3 years or more    | - 3 weeks                |
+|                    | - 6% of wages earned     |
++--------------------+--------------------------+
 
-- indemnities (additional sums of money that do not include wages) are calculated based on the wages you earned during the previous
-  year
+- indemnities (additional sums of money that do not include wages) are
+  calculated based on the wages you earned during the previous year
 - indemnities must be paid as a lump sum before the start of your vacation
 - an employee who is already entitled to 2 weeks can take **1 additional week of
   unpaid leave**
@@ -337,12 +345,12 @@ etc).
 contract is saying and that it matches your understanding of the agreed-upon
 terms.
 
-### Every contract is **negotiable**, but you need **leverage**!
+### Every contract is negotiable, but you need leverage!
 
 
 ## Unionization Rights
 
-#### Every employee has the right to **join**, **form**, or **participate** in a **union** of their choice.
+#### Every employee has the right to join, form, or participate in a union of their choice.
 
 #### Restrictions on employers
 
@@ -365,11 +373,16 @@ terms.
 
 You have **30 days** to file a complaint with the Labour Tribunal.
 
-### Benefits of collective action
+### Some benefits of collective action:
 
-1. Stronger negotiating power to win improvements compared to individual action
-2. Very few rights and protections for freelance workers in Labor Law
-3. Can transform and improve the whole industry for every worker
-4. Re-balance the employer / employee relationship
-5. Democratize company politics and policies
-6. Stop employee misclassification and loss of benefits
+- You'll have **stronger negotiating power** to win improvements at your
+  workplace compared to trying to change things as an individual.
+- As a freelancer, you ultimately have very few rights and protections under
+  Québec labour law. When freelancers join together, we can help protect
+  ourselves right now _and_ push for better labour laws for everyone in the long
+  term.
+- On top of legal reform, unions help transform and improve your whole industry
+  for **every worker** by helping to establish standards and expectations.
+- Unions can help democratize company policies and politics.
+- Unions can also help **put a stop to employee misclassification** and the loss
+  of benefits that almost always entails.
