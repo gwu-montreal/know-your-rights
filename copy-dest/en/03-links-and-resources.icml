@@ -1,228 +1,483 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="11.0(72)" ?>
 <?aid SnippetType="InCopyInterchange"?>
-<Document DOMVersion="8.0" Self="pandoc_doc">
-    <RootCharacterStyleGroup Self="pandoc_character_styles">
-      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
-      <CharacterStyle Self="CharacterStyle/Bold" Name="Bold" FontStyle="Bold">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-        </Properties>
-      </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Link" Name="Link">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-        </Properties>
-      </CharacterStyle> 
-    </RootCharacterStyleGroup>
-    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
-      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
-          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
-        <Properties>
-          <TabList type="list">
-            <ListItem type="record">
-              <Alignment type="enumeration">LeftAlign</Alignment>
-              <AlignmentCharacter type="string">.</AlignmentCharacter>
-              <Leader type="string"></Leader>
-              <Position type="unit">10</Position> <!-- first tab stop -->
-            </ListItem>
-          </TabList>
-        </Properties>
-      </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" LeftIndent="0" PointSize="24">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle> 
-    </RootParagraphStyleGroup>
-    <RootTableStyleGroup Self="pandoc_table_styles">
-      <TableStyle Self="TableStyle/Table" Name="Table" />
-    </RootTableStyleGroup>
-    <RootCellStyleGroup Self="pandoc_cell_styles">
-      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
-    </RootCellStyleGroup>
-  <Story Self="pandoc_story"
-      TrackChanges="false"
-      StoryTitle=""
-      AppliedTOCStyle="n"
-      AppliedNamedGrid="n" >
-    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
-
-<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Links and Resources</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>CNESST</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Commission des normes, de l’équité, de la santé et de la sécurité du travail</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>. This commission was formerly two commissions: the </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>CNT</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> (Commission des normes du travail) and the </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>CSST</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> (Commission de la santé et de la sécurité du travail), so you may still find references to these names.</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>https://www.cnt.gouv.qc.ca/en/accueil/index.html</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Educaloi</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Accessible introduction to a wide variety of legal topics.</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>https://www.educaloi.qc.ca</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Québec Labour Act</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Also known as the </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>“Act Respecting Labor Standards”</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> (or in some official documents even just as the Act).</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <HyperlinkTextSource Self="htss-3" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Canadian Human Rights Act</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>“An Act to extend the laws in Canada that proscribe discrimination.”</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <HyperlinkTextSource Self="htss-4" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Consequences of Fixed-Term Employment Contracts</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>A brief discussing some legal concerns and consequences around fixed-term contracts in Québec.</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>http://blg.com/en/News-And-Publications/Publication_5112</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource>
-</ParagraphStyleRange>
-
-  </Story>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//blg.com/en/News-And-Publications/Publication_5112" Name="link" DestinationURL="http://blg.com/en/News-And-Publications/Publication_5112" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-5" Name="http://blg.com/en/News-And-Publications/Publication_5112" Source="htss-5" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/http%3a//blg.com/en/News-And-Publications/Publication_5112</Destination>
-    </Properties>
-  </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Name="link" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-4" Name="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Source="htss-4" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/https%3a//laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html</Destination>
-    </Properties>
-  </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Name="link" DestinationURL="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-3" Name="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Source="htss-3" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/http%3a//legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1</Destination>
-    </Properties>
-  </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.educaloi.qc.ca" Name="link" DestinationURL="https://www.educaloi.qc.ca" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-2" Name="https://www.educaloi.qc.ca" Source="htss-2" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/https%3a//www.educaloi.qc.ca</Destination>
-    </Properties>
-  </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.cnt.gouv.qc.ca/en/accueil/index.html" Name="link" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-1" Name="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Source="htss-1" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/https%3a//www.cnt.gouv.qc.ca/en/accueil/index.html</Destination>
-    </Properties>
-  </Hyperlink>
+<Document DOMVersion="11.0" Self="d">
+	<Color Self="Color/Accent" Model="Process" Space="CMYK" ColorValue="0 100 72 51" ColorOverride="Normal" AlternateSpace="NoAlternateColor" AlternateColorValue="" Name="Accent" ColorEditable="true" ColorRemovable="true" Visible="true" SwatchCreatorID="7937" />
+	<Color Self="Color/Black" Model="Process" Space="CMYK" ColorValue="0 0 0 100" ColorOverride="Specialblack" AlternateSpace="NoAlternateColor" AlternateColorValue="" Name="Black" ColorEditable="false" ColorRemovable="false" Visible="true" SwatchCreatorID="7937" />
+	<Ink Self="Ink/$ID/Process Cyan" Name="$ID/Process Cyan" Angle="75" ConvertToProcess="false" Frequency="70" NeutralDensity="0.61" PrintInk="true" TrapOrder="1" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Magenta" Name="$ID/Process Magenta" Angle="15" ConvertToProcess="false" Frequency="70" NeutralDensity="0.76" PrintInk="true" TrapOrder="2" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Yellow" Name="$ID/Process Yellow" Angle="0" ConvertToProcess="false" Frequency="70" NeutralDensity="0.16" PrintInk="true" TrapOrder="3" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Black" Name="$ID/Process Black" Angle="45" ConvertToProcess="false" Frequency="70" NeutralDensity="1.7" PrintInk="true" TrapOrder="4" InkType="Normal" />
+	<Swatch Self="Swatch/None" Name="None" ColorEditable="false" ColorRemovable="false" Visible="true" SwatchCreatorID="7937" />
+	<FontFamily Self="di3f" Name="Minion Pro">
+		<Font Self="di3fFontnMinion Pro Regular" FontFamily="Minion Pro" Name="Minion Pro Regular" PostScriptName="MinionPro-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro" FullNameNative="Minion Pro" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.112;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.5900" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di96" Name="Myriad Pro">
+		<Font Self="di96FontnMyriad Pro Regular" FontFamily="Myriad Pro" Name="Myriad Pro Regular" PostScriptName="MyriadPro-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro" FullNameNative="Myriad Pro" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di96FontnMyriad Pro Italic" FontFamily="Myriad Pro" Name="Myriad Pro Italic" PostScriptName="MyriadPro-It" Status="Installed" FontStyleName="Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Italic" FullNameNative="Myriad Pro Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di96FontnMyriad Pro Bold" FontFamily="Myriad Pro" Name="Myriad Pro Bold" PostScriptName="MyriadPro-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold" FullNameNative="Myriad Pro Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di96FontnMyriad Pro Bold Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold Italic" PostScriptName="MyriadPro-BoldIt" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Italic" FullNameNative="Myriad Pro Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="dia3" Name="Kozuka Mincho Pr6N">
+		<Font Self="dia3FontnKozuka Mincho Pr6N R" FontFamily="Kozuka Mincho Pr6N" Name="Kozuka Mincho Pr6N R" PostScriptName="KozMinPr6N-Regular" Status="Installed" FontStyleName="R" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Pr6N R" FullNameNative="小塚明朝 Pr6N R" FontStyleNameNative="R" PlatformName="$ID/" Version="Version 6.017;PS 6.004;hotconv 1.0.70;makeotf.lib2.5.5900" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di274" Name="Aileron">
+		<Font Self="di274FontnAileron Thin" FontFamily="Aileron" Name="Aileron Thin" PostScriptName="Aileron-Thin" Status="Installed" FontStyleName="Thin" FontType="TrueType" WritingScript="0" FullName="Aileron Thin" FullNameNative="Aileron Thin" FontStyleNameNative="Thin" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron UltraLight" FontFamily="Aileron" Name="Aileron UltraLight" PostScriptName="Aileron-UltraLight" Status="Installed" FontStyleName="UltraLight" FontType="TrueType" WritingScript="0" FullName="Aileron UltraLight" FullNameNative="Aileron UltraLight" FontStyleNameNative="UltraLight" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Thin Italic" FontFamily="Aileron" Name="Aileron Thin Italic" PostScriptName="Aileron-ThinItalic" Status="Installed" FontStyleName="Thin Italic" FontType="TrueType" WritingScript="0" FullName="Aileron Thin Italic" FullNameNative="Aileron Thin Italic" FontStyleNameNative="Thin Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron UltraLight Italic" FontFamily="Aileron" Name="Aileron UltraLight Italic" PostScriptName="Aileron-UltraLightItalic" Status="Installed" FontStyleName="UltraLight Italic" FontType="TrueType" WritingScript="0" FullName="Aileron UltraLight Italic" FullNameNative="Aileron UltraLight Italic" FontStyleNameNative="UltraLight Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Light" FontFamily="Aileron" Name="Aileron Light" PostScriptName="Aileron-Light" Status="Installed" FontStyleName="Light" FontType="TrueType" WritingScript="0" FullName="Aileron Light" FullNameNative="Aileron Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Light Italic" FontFamily="Aileron" Name="Aileron Light Italic" PostScriptName="Aileron-LightItalic" Status="Installed" FontStyleName="Light Italic" FontType="TrueType" WritingScript="0" FullName="Aileron Light Italic" FullNameNative="Aileron Light Italic" FontStyleNameNative="Light Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Regular" FontFamily="Aileron" Name="Aileron Regular" PostScriptName="Aileron-Regular" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Aileron" FullNameNative="Aileron" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Italic" FontFamily="Aileron" Name="Aileron Italic" PostScriptName="Aileron-Italic" Status="Installed" FontStyleName="Italic" FontType="TrueType" WritingScript="0" FullName="Aileron Italic" FullNameNative="Aileron Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron SemiBold" FontFamily="Aileron" Name="Aileron SemiBold" PostScriptName="Aileron-SemiBold" Status="Installed" FontStyleName="SemiBold" FontType="TrueType" WritingScript="0" FullName="Aileron SemiBold" FullNameNative="Aileron SemiBold" FontStyleNameNative="SemiBold" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron SemiBold Italic" FontFamily="Aileron" Name="Aileron SemiBold Italic" PostScriptName="Aileron-SemiBoldItalic" Status="Installed" FontStyleName="SemiBold Italic" FontType="TrueType" WritingScript="0" FullName="Aileron SemiBold Italic" FullNameNative="Aileron SemiBold Italic" FontStyleNameNative="SemiBold Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Bold" FontFamily="Aileron" Name="Aileron Bold" PostScriptName="Aileron-Bold" Status="Installed" FontStyleName="Bold" FontType="TrueType" WritingScript="0" FullName="Aileron Bold" FullNameNative="Aileron Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Bold Italic" FontFamily="Aileron" Name="Aileron Bold Italic" PostScriptName="Aileron-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="TrueType" WritingScript="0" FullName="Aileron Bold Italic" FullNameNative="Aileron Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Black" FontFamily="Aileron" Name="Aileron Black" PostScriptName="Aileron-Black" Status="Installed" FontStyleName="Black" FontType="TrueType" WritingScript="0" FullName="Aileron Black" FullNameNative="Aileron Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Heavy" FontFamily="Aileron" Name="Aileron Heavy" PostScriptName="Aileron-Heavy" Status="Installed" FontStyleName="Heavy" FontType="TrueType" WritingScript="0" FullName="Aileron Heavy" FullNameNative="Aileron Heavy" FontStyleNameNative="Heavy" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Black Italic" FontFamily="Aileron" Name="Aileron Black Italic" PostScriptName="Aileron-BlackItalic" Status="Installed" FontStyleName="Black Italic" FontType="TrueType" WritingScript="0" FullName="Aileron Black Italic" FullNameNative="Aileron Black Italic" FontStyleNameNative="Black Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di274FontnAileron Heavy Italic" FontFamily="Aileron" Name="Aileron Heavy Italic" PostScriptName="Aileron-HeavyItalic" Status="Installed" FontStyleName="Heavy Italic" FontType="TrueType" WritingScript="0" FullName="Aileron Heavy Italic" FullNameNative="Aileron Heavy Italic" FontStyleNameNative="Heavy Italic" PlatformName="$ID/" Version="Version 1.102;PS 001.102;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="did1c" Name="Mercury">
+		<Font Self="did1cFontnMercury Text G1 Roman" FontFamily="Mercury" Name="Mercury Text G1 Roman" PostScriptName="Mercury-TextG1Roman" Status="Installed" FontStyleName="Text G1 Roman" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Roman" FullNameNative="Mercury Text G1 Roman" FontStyleNameNative="Text G1 Roman" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Roman SC" FontFamily="Mercury" Name="Mercury Text G1 Roman SC" PostScriptName="Mercury-TextG1RomanSC" Status="Installed" FontStyleName="Text G1 Roman SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Roman SC" FullNameNative="Mercury Text G1 Roman SC" FontStyleNameNative="Text G1 Roman SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Roman" FontFamily="Mercury" Name="Mercury Text G2 Roman" PostScriptName="Mercury-TextG2Roman" Status="Installed" FontStyleName="Text G2 Roman" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Roman" FullNameNative="Mercury Text G2 Roman" FontStyleNameNative="Text G2 Roman" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Roman SC" FontFamily="Mercury" Name="Mercury Text G2 Roman SC" PostScriptName="Mercury-TextG2RomanSC" Status="Installed" FontStyleName="Text G2 Roman SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Roman SC" FullNameNative="Mercury Text G2 Roman SC" FontStyleNameNative="Text G2 Roman SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Roman" FontFamily="Mercury" Name="Mercury Text G3 Roman" PostScriptName="Mercury-TextG3Roman" Status="Installed" FontStyleName="Text G3 Roman" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Roman" FullNameNative="Mercury Text G3 Roman" FontStyleNameNative="Text G3 Roman" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Roman SC" FontFamily="Mercury" Name="Mercury Text G3 Roman SC" PostScriptName="Mercury-TextG3RomanSC" Status="Installed" FontStyleName="Text G3 Roman SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Roman SC" FullNameNative="Mercury Text G3 Roman SC" FontStyleNameNative="Text G3 Roman SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Roman" FontFamily="Mercury" Name="Mercury Text G4 Roman" PostScriptName="Mercury-TextG4Roman" Status="Installed" FontStyleName="Text G4 Roman" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Roman" FullNameNative="Mercury Text G4 Roman" FontStyleNameNative="Text G4 Roman" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Roman SC" FontFamily="Mercury" Name="Mercury Text G4 Roman SC" PostScriptName="Mercury-TextG4RomanSC" Status="Installed" FontStyleName="Text G4 Roman SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Roman SC" FullNameNative="Mercury Text G4 Roman SC" FontStyleNameNative="Text G4 Roman SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Italic" FontFamily="Mercury" Name="Mercury Text G1 Italic" PostScriptName="Mercury-TextG1Italic" Status="Installed" FontStyleName="Text G1 Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Italic" FullNameNative="Mercury Text G1 Italic" FontStyleNameNative="Text G1 Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Italic" FontFamily="Mercury" Name="Mercury Text G2 Italic" PostScriptName="Mercury-TextG2Italic" Status="Installed" FontStyleName="Text G2 Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Italic" FullNameNative="Mercury Text G2 Italic" FontStyleNameNative="Text G2 Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Italic" FontFamily="Mercury" Name="Mercury Text G3 Italic" PostScriptName="Mercury-TextG3Italic" Status="Installed" FontStyleName="Text G3 Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Italic" FullNameNative="Mercury Text G3 Italic" FontStyleNameNative="Text G3 Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Italic" FontFamily="Mercury" Name="Mercury Text G4 Italic" PostScriptName="Mercury-TextG4Italic" Status="Installed" FontStyleName="Text G4 Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Italic" FullNameNative="Mercury Text G4 Italic" FontStyleNameNative="Text G4 Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Bold" FontFamily="Mercury" Name="Mercury Text G1 Bold" PostScriptName="Mercury-TextG1Bold" Status="Installed" FontStyleName="Text G1 Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Bold" FullNameNative="Mercury Text G1 Bold" FontStyleNameNative="Text G1 Bold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Bold SC" FontFamily="Mercury" Name="Mercury Text G1 Bold SC" PostScriptName="Mercury-TextG1BoldSC" Status="Installed" FontStyleName="Text G1 Bold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Bold SC" FullNameNative="Mercury Text G1 Bold SC" FontStyleNameNative="Text G1 Bold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Semibold" FontFamily="Mercury" Name="Mercury Text G1 Semibold" PostScriptName="Mercury-TextG1Semibold" Status="Installed" FontStyleName="Text G1 Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Semibold" FullNameNative="Mercury Text G1 Semibold" FontStyleNameNative="Text G1 Semibold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Semibold SC" FontFamily="Mercury" Name="Mercury Text G1 Semibold SC" PostScriptName="Mercury-TextG1SemiboldSC" Status="Installed" FontStyleName="Text G1 Semibold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Semibold SC" FullNameNative="Mercury Text G1 Semibold SC" FontStyleNameNative="Text G1 Semibold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Bold" FontFamily="Mercury" Name="Mercury Text G2 Bold" PostScriptName="Mercury-TextG2Bold" Status="Installed" FontStyleName="Text G2 Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Bold" FullNameNative="Mercury Text G2 Bold" FontStyleNameNative="Text G2 Bold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Bold SC" FontFamily="Mercury" Name="Mercury Text G2 Bold SC" PostScriptName="Mercury-TextG2BoldSC" Status="Installed" FontStyleName="Text G2 Bold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Bold SC" FullNameNative="Mercury Text G2 Bold SC" FontStyleNameNative="Text G2 Bold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Semibold" FontFamily="Mercury" Name="Mercury Text G2 Semibold" PostScriptName="Mercury-TextG2Semibold" Status="Installed" FontStyleName="Text G2 Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Semibold" FullNameNative="Mercury Text G2 Semibold" FontStyleNameNative="Text G2 Semibold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Semibold SC" FontFamily="Mercury" Name="Mercury Text G2 Semibold SC" PostScriptName="Mercury-TextG2SemiboldSC" Status="Installed" FontStyleName="Text G2 Semibold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Semibold SC" FullNameNative="Mercury Text G2 Semibold SC" FontStyleNameNative="Text G2 Semibold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Bold" FontFamily="Mercury" Name="Mercury Text G3 Bold" PostScriptName="Mercury-TextG3Bold" Status="Installed" FontStyleName="Text G3 Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Bold" FullNameNative="Mercury Text G3 Bold" FontStyleNameNative="Text G3 Bold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Bold SC" FontFamily="Mercury" Name="Mercury Text G3 Bold SC" PostScriptName="Mercury-TextG3BoldSC" Status="Installed" FontStyleName="Text G3 Bold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Bold SC" FullNameNative="Mercury Text G3 Bold SC" FontStyleNameNative="Text G3 Bold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Semibold" FontFamily="Mercury" Name="Mercury Text G3 Semibold" PostScriptName="Mercury-TextG3Semibold" Status="Installed" FontStyleName="Text G3 Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Semibold" FullNameNative="Mercury Text G3 Semibold" FontStyleNameNative="Text G3 Semibold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Semibold SC" FontFamily="Mercury" Name="Mercury Text G3 Semibold SC" PostScriptName="Mercury-TextG3SemiboldSC" Status="Installed" FontStyleName="Text G3 Semibold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Semibold SC" FullNameNative="Mercury Text G3 Semibold SC" FontStyleNameNative="Text G3 Semibold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Bold" FontFamily="Mercury" Name="Mercury Text G4 Bold" PostScriptName="Mercury-TextG4Bold" Status="Installed" FontStyleName="Text G4 Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Bold" FullNameNative="Mercury Text G4 Bold" FontStyleNameNative="Text G4 Bold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Bold SC" FontFamily="Mercury" Name="Mercury Text G4 Bold SC" PostScriptName="Mercury-TextG4BoldSC" Status="Installed" FontStyleName="Text G4 Bold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Bold SC" FullNameNative="Mercury Text G4 Bold SC" FontStyleNameNative="Text G4 Bold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Semibold" FontFamily="Mercury" Name="Mercury Text G4 Semibold" PostScriptName="Mercury-TextG4Semibold" Status="Installed" FontStyleName="Text G4 Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Semibold" FullNameNative="Mercury Text G4 Semibold" FontStyleNameNative="Text G4 Semibold" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Semibold SC" FontFamily="Mercury" Name="Mercury Text G4 Semibold SC" PostScriptName="Mercury-TextG4SemiboldSC" Status="Installed" FontStyleName="Text G4 Semibold SC" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Semibold SC" FullNameNative="Mercury Text G4 Semibold SC" FontStyleNameNative="Text G4 Semibold SC" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Bold Italic" FontFamily="Mercury" Name="Mercury Text G1 Bold Italic" PostScriptName="Mercury-TextG1BoldItalic" Status="Installed" FontStyleName="Text G1 Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Bold Italic" FullNameNative="Mercury Text G1 Bold Italic" FontStyleNameNative="Text G1 Bold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G1 Semibold Italic" FontFamily="Mercury" Name="Mercury Text G1 Semibold Italic" PostScriptName="Mercury-TextG1SemiboldItalic" Status="Installed" FontStyleName="Text G1 Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G1 Semibold Italic" FullNameNative="Mercury Text G1 Semibold Italic" FontStyleNameNative="Text G1 Semibold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Bold Italic" FontFamily="Mercury" Name="Mercury Text G2 Bold Italic" PostScriptName="Mercury-TextG2BoldItalic" Status="Installed" FontStyleName="Text G2 Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Bold Italic" FullNameNative="Mercury Text G2 Bold Italic" FontStyleNameNative="Text G2 Bold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G2 Semibold Italic" FontFamily="Mercury" Name="Mercury Text G2 Semibold Italic" PostScriptName="Mercury-TextG2SemiboldItalic" Status="Installed" FontStyleName="Text G2 Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G2 Semibold Italic" FullNameNative="Mercury Text G2 Semibold Italic" FontStyleNameNative="Text G2 Semibold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Bold Italic" FontFamily="Mercury" Name="Mercury Text G3 Bold Italic" PostScriptName="Mercury-TextG3BoldItalic" Status="Installed" FontStyleName="Text G3 Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Bold Italic" FullNameNative="Mercury Text G3 Bold Italic" FontStyleNameNative="Text G3 Bold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G3 Semibold Italic" FontFamily="Mercury" Name="Mercury Text G3 Semibold Italic" PostScriptName="Mercury-TextG3SemiboldItalic" Status="Installed" FontStyleName="Text G3 Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G3 Semibold Italic" FullNameNative="Mercury Text G3 Semibold Italic" FontStyleNameNative="Text G3 Semibold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Bold Italic" FontFamily="Mercury" Name="Mercury Text G4 Bold Italic" PostScriptName="Mercury-TextG4BoldItalic" Status="Installed" FontStyleName="Text G4 Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Bold Italic" FullNameNative="Mercury Text G4 Bold Italic" FontStyleNameNative="Text G4 Bold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+		<Font Self="did1cFontnMercury Text G4 Semibold Italic" FontFamily="Mercury" Name="Mercury Text G4 Semibold Italic" PostScriptName="Mercury-TextG4SemiboldItalic" Status="Installed" FontStyleName="Text G4 Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Mercury Text G4 Semibold Italic" FullNameNative="Mercury Text G4 Semibold Italic" FontStyleNameNative="Text G4 Semibold Italic" PlatformName="$ID/" Version="001.000" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="did60" Name="Helvetica Neue LT Std">
+		<Font Self="did60FontnHelvetica Neue LT Std 37 Thin Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 37 Thin Condensed" PostScriptName="HelveticaNeueLTStd-ThCn" Status="Installed" FontStyleName="37 Thin Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 37 Thin Condensed" FullNameNative="Helvetica Neue LT Std 37 Thin Condensed" FontStyleNameNative="37 Thin Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 37 Thin Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 37 Thin Condensed Oblique" PostScriptName="HelveticaNeueLTStd-ThCnO" Status="Installed" FontStyleName="37 Thin Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 37 Thin Condensed Oblique" FullNameNative="Helvetica Neue LT Std 37 Thin Condensed Oblique" FontStyleNameNative="37 Thin Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 27 Ultra Light Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 27 Ultra Light Condensed" PostScriptName="HelveticaNeueLTStd-UltLtCn" Status="Installed" FontStyleName="27 Ultra Light Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 27 Ultra Light Condensed" FullNameNative="Helvetica Neue LT Std 27 Ultra Light Condensed" FontStyleNameNative="27 Ultra Light Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 27 Ultra Light Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 27 Ultra Light Condensed Oblique" PostScriptName="HelveticaNeueLTStd-UltLtCnO" Status="Installed" FontStyleName="27 Ultra Light Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 27 Ultra Light Condensed Oblique" FullNameNative="Helvetica Neue LT Std 27 Ultra Light Condensed Oblique" FontStyleNameNative="27 Ultra Light Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 47 Light Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 47 Light Condensed" PostScriptName="HelveticaNeueLTStd-LtCn" Status="Installed" FontStyleName="47 Light Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 47 Light Condensed" FullNameNative="Helvetica Neue LT Std 47 Light Condensed" FontStyleNameNative="47 Light Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 47 Light Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 47 Light Condensed Oblique" PostScriptName="HelveticaNeueLTStd-LtCnO" Status="Installed" FontStyleName="47 Light Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 47 Light Condensed Oblique" FullNameNative="Helvetica Neue LT Std 47 Light Condensed Oblique" FontStyleNameNative="47 Light Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 57 Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 57 Condensed" PostScriptName="HelveticaNeueLTStd-Cn" Status="Installed" FontStyleName="57 Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 57 Condensed" FullNameNative="Helvetica Neue LT Std 57 Condensed" FontStyleNameNative="57 Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 57 Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 57 Condensed Oblique" PostScriptName="HelveticaNeueLTStd-CnO" Status="Installed" FontStyleName="57 Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 57 Condensed Oblique" FullNameNative="Helvetica Neue LT Std 57 Condensed Oblique" FontStyleNameNative="57 Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 67 Medium Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 67 Medium Condensed" PostScriptName="HelveticaNeueLTStd-MdCn" Status="Installed" FontStyleName="67 Medium Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 67 Medium Condensed" FullNameNative="Helvetica Neue LT Std 67 Medium Condensed" FontStyleNameNative="67 Medium Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 67 Medium Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 67 Medium Condensed Oblique" PostScriptName="HelveticaNeueLTStd-MdCnO" Status="Installed" FontStyleName="67 Medium Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 67 Medium Condensed Oblique" FullNameNative="Helvetica Neue LT Std 67 Medium Condensed Oblique" FontStyleNameNative="67 Medium Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 77 Bold Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 77 Bold Condensed" PostScriptName="HelveticaNeueLTStd-BdCn" Status="Installed" FontStyleName="77 Bold Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 77 Bold Condensed" FullNameNative="Helvetica Neue LT Std 77 Bold Condensed" FontStyleNameNative="77 Bold Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 77 Bold Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 77 Bold Condensed Oblique" PostScriptName="HelveticaNeueLTStd-BdCnO" Status="Installed" FontStyleName="77 Bold Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 77 Bold Condensed Oblique" FullNameNative="Helvetica Neue LT Std 77 Bold Condensed Oblique" FontStyleNameNative="77 Bold Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 87 Heavy Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 87 Heavy Condensed" PostScriptName="HelveticaNeueLTStd-HvCn" Status="Installed" FontStyleName="87 Heavy Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 87 Heavy Condensed" FullNameNative="Helvetica Neue LT Std 87 Heavy Condensed" FontStyleNameNative="87 Heavy Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 87 Heavy Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 87 Heavy Condensed Oblique" PostScriptName="HelveticaNeueLTStd-HvCnO" Status="Installed" FontStyleName="87 Heavy Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 87 Heavy Condensed Oblique" FullNameNative="Helvetica Neue LT Std 87 Heavy Condensed Oblique" FontStyleNameNative="87 Heavy Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 97 Black Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 97 Black Condensed" PostScriptName="HelveticaNeueLTStd-BlkCn" Status="Installed" FontStyleName="97 Black Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 97 Black Condensed" FullNameNative="Helvetica Neue LT Std 97 Black Condensed" FontStyleNameNative="97 Black Condensed" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 97 Black Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 97 Black Condensed Oblique" PostScriptName="HelveticaNeueLTStd-BlkCnO" Status="Installed" FontStyleName="97 Black Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 97 Black Condensed Oblique" FullNameNative="Helvetica Neue LT Std 97 Black Condensed Oblique" FontStyleNameNative="97 Black Condensed Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 107 Extra Black Condensed" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 107 Extra Black Condensed" PostScriptName="HelveticaNeueLTStd-XBlkCn" Status="Installed" FontStyleName="107 Extra Black Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 107 Extra Black Condensed" FullNameNative="Helvetica Neue LT Std 107 Extra Black Condensed" FontStyleNameNative="107 Extra Black Condensed" PlatformName="$ID/" Version="Version 2.020;PS 002.000;hotconv 1.0.50;makeotf.lib2.0.16970" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 107 Extra Black Condensed Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 107 Extra Black Condensed Oblique" PostScriptName="HelveticaNeueLTStd-XBlkCnO" Status="Installed" FontStyleName="107 Extra Black Condensed Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 107 Extra Black Condensed Oblique" FullNameNative="Helvetica Neue LT Std 107 Extra Black Condensed Oblique" FontStyleNameNative="107 Extra Black Condensed Oblique" PlatformName="$ID/" Version="Version 2.020;PS 002.000;hotconv 1.0.50;makeotf.lib2.0.16970" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 35 Thin" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 35 Thin" PostScriptName="HelveticaNeueLTStd-Th" Status="Installed" FontStyleName="35 Thin" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 35 Thin" FullNameNative="Helvetica Neue LT Std 35 Thin" FontStyleNameNative="35 Thin" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 36 Thin Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 36 Thin Italic" PostScriptName="HelveticaNeueLTStd-ThIt" Status="Installed" FontStyleName="36 Thin Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 36 Thin Italic" FullNameNative="Helvetica Neue LT Std 36 Thin Italic" FontStyleNameNative="36 Thin Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 25 Ultra Light" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 25 Ultra Light" PostScriptName="HelveticaNeueLTStd-UltLt" Status="Installed" FontStyleName="25 Ultra Light" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 25 Ultra Light" FullNameNative="Helvetica Neue LT Std 25 Ultra Light" FontStyleNameNative="25 Ultra Light" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 26 Ultra Light Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 26 Ultra Light Italic" PostScriptName="HelveticaNeueLTStd-UltLtIt" Status="Installed" FontStyleName="26 Ultra Light Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 26 Ultra Light Italic" FullNameNative="Helvetica Neue LT Std 26 Ultra Light Italic" FontStyleNameNative="26 Ultra Light Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 45 Light" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 45 Light" PostScriptName="HelveticaNeueLTStd-Lt" Status="Installed" FontStyleName="45 Light" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 45 Light" FullNameNative="Helvetica Neue LT Std 45 Light" FontStyleNameNative="45 Light" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 46 Light Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 46 Light Italic" PostScriptName="HelveticaNeueLTStd-LtIt" Status="Installed" FontStyleName="46 Light Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 46 Light Italic" FullNameNative="Helvetica Neue LT Std 46 Light Italic" FontStyleNameNative="46 Light Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 55 Roman" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 55 Roman" PostScriptName="HelveticaNeueLTStd-Roman" Status="Installed" FontStyleName="55 Roman" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 55 Roman" FullNameNative="Helvetica Neue LT Std 55 Roman" FontStyleNameNative="55 Roman" PlatformName="$ID/" Version="Version 2.020;PS 002.000;hotconv 1.0.50;makeotf.lib2.0.16970" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 56 Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 56 Italic" PostScriptName="HelveticaNeueLTStd-It" Status="Installed" FontStyleName="56 Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 56 Italic" FullNameNative="Helvetica Neue LT Std 56 Italic" FontStyleNameNative="56 Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 65 Medium" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 65 Medium" PostScriptName="HelveticaNeueLTStd-Md" Status="Installed" FontStyleName="65 Medium" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 65 Medium" FullNameNative="Helvetica Neue LT Std 65 Medium" FontStyleNameNative="65 Medium" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 66 Medium Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 66 Medium Italic" PostScriptName="HelveticaNeueLTStd-MdIt" Status="Installed" FontStyleName="66 Medium Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 66 Medium Italic" FullNameNative="Helvetica Neue LT Std 66 Medium Italic" FontStyleNameNative="66 Medium Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 75 Bold" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 75 Bold" PostScriptName="HelveticaNeueLTStd-Bd" Status="Installed" FontStyleName="75 Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 75 Bold" FullNameNative="Helvetica Neue LT Std 75 Bold" FontStyleNameNative="75 Bold" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 75 Bold Outline" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 75 Bold Outline" PostScriptName="HelveticaNeueLTStd-BdOu" Status="Installed" FontStyleName="75 Bold Outline" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 75 Bold Outline" FullNameNative="Helvetica Neue LT Std 75 Bold Outline" FontStyleNameNative="75 Bold Outline" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 76 Bold Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 76 Bold Italic" PostScriptName="HelveticaNeueLTStd-BdIt" Status="Installed" FontStyleName="76 Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 76 Bold Italic" FullNameNative="Helvetica Neue LT Std 76 Bold Italic" FontStyleNameNative="76 Bold Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 85 Heavy" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 85 Heavy" PostScriptName="HelveticaNeueLTStd-Hv" Status="Installed" FontStyleName="85 Heavy" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 85 Heavy" FullNameNative="Helvetica Neue LT Std 85 Heavy" FontStyleNameNative="85 Heavy" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 86 Heavy Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 86 Heavy Italic" PostScriptName="HelveticaNeueLTStd-HvIt" Status="Installed" FontStyleName="86 Heavy Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 86 Heavy Italic" FullNameNative="Helvetica Neue LT Std 86 Heavy Italic" FontStyleNameNative="86 Heavy Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 95 Black" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 95 Black" PostScriptName="HelveticaNeueLTStd-Blk" Status="Installed" FontStyleName="95 Black" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 95 Black" FullNameNative="Helvetica Neue LT Std 95 Black" FontStyleNameNative="95 Black" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 96 Black Italic" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 96 Black Italic" PostScriptName="HelveticaNeueLTStd-BlkIt" Status="Installed" FontStyleName="96 Black Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 96 Black Italic" FullNameNative="Helvetica Neue LT Std 96 Black Italic" FontStyleNameNative="96 Black Italic" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 33 Thin Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 33 Thin Extended" PostScriptName="HelveticaNeueLTStd-ThEx" Status="Installed" FontStyleName="33 Thin Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 33 Thin Extended" FullNameNative="Helvetica Neue LT Std 33 Thin Extended" FontStyleNameNative="33 Thin Extended" PlatformName="$ID/" Version="Version 2.020;PS 002.000;hotconv 1.0.50;makeotf.lib2.0.16970" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 33 Thin Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 33 Thin Extended Oblique" PostScriptName="HelveticaNeueLTStd-ThExO" Status="Installed" FontStyleName="33 Thin Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 33 Thin Extended Oblique" FullNameNative="Helvetica Neue LT Std 33 Thin Extended Oblique" FontStyleNameNative="33 Thin Extended Oblique" PlatformName="$ID/" Version="Version 2.020;PS 002.000;hotconv 1.0.50;makeotf.lib2.0.16970" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 23 Ultra Light Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 23 Ultra Light Extended" PostScriptName="HelveticaNeueLTStd-UltLtEx" Status="Installed" FontStyleName="23 Ultra Light Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 23 Ultra Light Extended" FullNameNative="Helvetica Neue LT Std 23 Ultra Light Extended" FontStyleNameNative="23 Ultra Light Extended" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 23 Ultra Light Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 23 Ultra Light Extended Oblique" PostScriptName="HelveticaNeueLTStd-UltLtExO" Status="Installed" FontStyleName="23 Ultra Light Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 23 Ultra Light Extended Oblique" FullNameNative="Helvetica Neue LT Std 23 Ultra Light Extended Oblique" FontStyleNameNative="23 Ultra Light Extended Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 43 Light Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 43 Light Extended" PostScriptName="HelveticaNeueLTStd-LtEx" Status="Installed" FontStyleName="43 Light Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 43 Light Extended" FullNameNative="Helvetica Neue LT Std 43 Light Extended" FontStyleNameNative="43 Light Extended" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 43 Light Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 43 Light Extended Oblique" PostScriptName="HelveticaNeueLTStd-LtExO" Status="Installed" FontStyleName="43 Light Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 43 Light Extended Oblique" FullNameNative="Helvetica Neue LT Std 43 Light Extended Oblique" FontStyleNameNative="43 Light Extended Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 53 Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 53 Extended" PostScriptName="HelveticaNeueLTStd-Ex" Status="Installed" FontStyleName="53 Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 53 Extended" FullNameNative="Helvetica Neue LT Std 53 Extended" FontStyleNameNative="53 Extended" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 53 Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 53 Extended Oblique" PostScriptName="HelveticaNeueLTStd-ExO" Status="Installed" FontStyleName="53 Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 53 Extended Oblique" FullNameNative="Helvetica Neue LT Std 53 Extended Oblique" FontStyleNameNative="53 Extended Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 63 Medium Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 63 Medium Extended" PostScriptName="HelveticaNeueLTStd-MdEx" Status="Installed" FontStyleName="63 Medium Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 63 Medium Extended" FullNameNative="Helvetica Neue LT Std 63 Medium Extended" FontStyleNameNative="63 Medium Extended" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 63 Medium Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 63 Medium Extended Oblique" PostScriptName="HelveticaNeueLTStd-MdExO" Status="Installed" FontStyleName="63 Medium Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 63 Medium Extended Oblique" FullNameNative="Helvetica Neue LT Std 63 Medium Extended Oblique" FontStyleNameNative="63 Medium Extended Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 73 Bold Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 73 Bold Extended" PostScriptName="HelveticaNeueLTStd-BdEx" Status="Installed" FontStyleName="73 Bold Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 73 Bold Extended" FullNameNative="Helvetica Neue LT Std 73 Bold Extended" FontStyleNameNative="73 Bold Extended" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 73 Bold Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 73 Bold Extended Oblique" PostScriptName="HelveticaNeueLTStd-BdExO" Status="Installed" FontStyleName="73 Bold Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 73 Bold Extended Oblique" FullNameNative="Helvetica Neue LT Std 73 Bold Extended Oblique" FontStyleNameNative="73 Bold Extended Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 83 Heavy Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 83 Heavy Extended" PostScriptName="HelveticaNeueLTStd-HvEx" Status="Installed" FontStyleName="83 Heavy Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 83 Heavy Extended" FullNameNative="Helvetica Neue LT Std 83 Heavy Extended" FontStyleNameNative="83 Heavy Extended" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 83 Heavy Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 83 Heavy Extended Oblique" PostScriptName="HelveticaNeueLTStd-HvExO" Status="Installed" FontStyleName="83 Heavy Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 83 Heavy Extended Oblique" FullNameNative="Helvetica Neue LT Std 83 Heavy Extended Oblique" FontStyleNameNative="83 Heavy Extended Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 93 Black Extended" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 93 Black Extended" PostScriptName="HelveticaNeueLTStd-BlkEx" Status="Installed" FontStyleName="93 Black Extended" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 93 Black Extended" FullNameNative="Helvetica Neue LT Std 93 Black Extended" FontStyleNameNative="93 Black Extended" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="did60FontnHelvetica Neue LT Std 93 Black Extended Oblique" FontFamily="Helvetica Neue LT Std" Name="Helvetica Neue LT Std 93 Black Extended Oblique" PostScriptName="HelveticaNeueLTStd-BlkExO" Status="Installed" FontStyleName="93 Black Extended Oblique" FontType="OpenTypeCFF" WritingScript="0" FullName="Helvetica Neue LT Std 93 Black Extended Oblique" FullNameNative="Helvetica Neue LT Std 93 Black Extended Oblique" FontStyleNameNative="93 Black Extended Oblique" PlatformName="$ID/" Version="Version 2.035;PS 002.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+	</FontFamily>
+	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
+		<CompositeFontEntry Self="ua2" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua4" Name="$ID/Kana" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヷヸヹヺーヽヾ" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua5" Name="$ID/Punctuation" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="—―‖‘’“”‥…′″∥、。〈〉《》「」『』【】〔〕〜・！（），．／：；？［］｛｝～" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua6" Name="$ID/Symbols" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="¢£§¨¬°±´¶×÷ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψωЁАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё‐†‡‰※℃Å←↑→↓⇒⇔∀∂∃∇∈∋−√∝∞∠∧∨∩∪∫∬∴∵∽≒≠≡≦≧≪≫⊂⊃⊆⊇⊥⌒■□▲△▼▽◆◇○◎●◯★☆♀♂♪♭♯〃〆〇〒〓゛゜＃＄％＆＊＋－０１２３４５６７８９＜＝＞＠ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ＼＾＿｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｜￠￡￢￣￥" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua7" Name="$ID/Alphabetic" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters=" !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¤¥¦©ª«­®¯²³µ·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿıŒœŠšŸŽžƒˆˇ˘˙˚˛˜˝–‚„•‹›⁄€™∆∏∑≈≤≥◊ﬀﬁﬂﬃﬄﬅﬆ" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Minion Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua8" Name="$ID/Numbers" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="0123456789" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Minion Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+	</CompositeFont>
+	<RootCharacterStyleGroup Self="u78">
+		<CharacterStyle Self="CharacterStyle/Default" Imported="false" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" Name="Default">
+			<Properties>
+				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+		<CharacterStyle Self="CharacterStyle/Bold" Imported="false" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" Name="Bold" FillColor="Color/Black" FontStyle="Text G2 Bold" StrokeColor="Swatch/None">
+			<Properties>
+				<BasedOn type="object">CharacterStyle/Default</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<AppliedFont type="string">Mercury</AppliedFont>
+			</Properties>
+		</CharacterStyle>
+		<CharacterStyle Self="CharacterStyle/Link" Imported="false" SplitDocument="false" EmitCss="true" KeyboardShortcut="0 0" Name="Link">
+			<Properties>
+				<BasedOn type="object">CharacterStyle/Bold</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+	</RootCharacterStyleGroup>
+	<RootParagraphStyleGroup Self="u77">
+		<ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" Imported="false" NextStyle="ParagraphStyle/Header2" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FillColor="Color/Accent" FontStyle="75 Bold" PointSize="24" SpaceBefore="9" KeepAllLinesTogether="true" KeepWithNext="2" KeepLinesTogether="true">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="enumeration">Auto</Leading>
+				<AppliedFont type="string">Helvetica Neue LT Std</AppliedFont>
+				<BalanceRaggedLines type="enumeration">VeeShape</BalanceRaggedLines>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" Imported="false" NextStyle="ParagraphStyle/Header3" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="18" SpaceBefore="4.5">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Header2</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="enumeration">Auto</Leading>
+				<BalanceRaggedLines type="enumeration">VeeShape</BalanceRaggedLines>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" KeepLinesTogether="true">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" Imported="false" NextStyle="ParagraphStyle/$ID/NormalParagraphStyle" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Text G2 Roman" PointSize="14" Hyphenation="false" SpaceAfter="9">
+			<Properties>
+				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">18</Leading>
+				<AppliedFont type="string">Mercury</AppliedFont>
+			</Properties>
+		</ParagraphStyle>
+	</RootParagraphStyleGroup>
+	<TinDocumentDataObject>
+		<Properties>
+			<GaijiRefMaps><![CDATA[/////wAAAAAAAAAA]]></GaijiRefMaps>
+		</Properties>
+	</TinDocumentDataObject>
+	<CrossReferenceFormat Self="u97" Name="Full Paragraph &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u97BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u97BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u97BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u97BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u98" Name="Full Paragraph" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u98BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u98BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u98BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u99" Name="Paragraph Text &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u99BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u99BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u99BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u99BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9a" Name="Paragraph Text" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9aBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9aBuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9aBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9b" Name="Paragraph Number &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9bBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9bBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9bBuildingBlock2" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9c" Name="Paragraph Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9cBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9d" Name="Text Anchor Name &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9dBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9dBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9dBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9dBuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9e" Name="Text Anchor Name" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9eBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9eBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9eBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9f" Name="Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9fBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9fBuildingBlock1" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<Story Self="ub9b" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Links and Resources</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>CNESST</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>The </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>Commission des normes, de l’équité, de la santé et de la sécurité du travail</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>. This commission was formerly two commissions: the </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>CNT</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> (Commission des normes du travail) and the </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>CSST</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> (Commission de la santé et de la sécurité du travail), so you may still find references to these names.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<HyperlinkTextSource Self="u165a" Name="Hyperlink 7" Hidden="false" AppliedCharacterStyle="n">
+					<Content>https://www.cnt.gouv.qc.ca/en/accueil/index.html</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Educaloi</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Accessible introduction to a wide variety of legal topics.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<HyperlinkTextSource Self="u165d" Name="Hyperlink 8" Hidden="false" AppliedCharacterStyle="n">
+					<Content>https://www.educaloi.qc.ca</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Québec Labour Act</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Also known as the “Act Respecting Labor Standards” (or in some official documents even just as “the Act.”)</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<HyperlinkTextSource Self="u165e" Name="Hyperlink 9" Hidden="false" AppliedCharacterStyle="n">
+					<Content>http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link" ParagraphBreakType="NextColumn">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Canadian Human Rights Act</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>“An Act to extend the laws in Canada that proscribe discrimination.”</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<HyperlinkTextSource Self="u165f" Name="Hyperlink 11" Hidden="false" AppliedCharacterStyle="n">
+					<Content>https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>The Consequences of Fixed-Term Employment Contracts</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>A brief discussing some legal concerns and consequences around fixed-term contracts in Québec.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<HyperlinkTextSource Self="u1660" Name="Hyperlink 14" Hidden="false" AppliedCharacterStyle="n">
+					<Content>http://blg.com/en/News-And-Publications/Publication_5112</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/link" DestinationUniqueKey="1" Name="link" DestinationURL="mailto:sattaq.union@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 1" DestinationUniqueKey="2" Name="URL 1" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 2" DestinationUniqueKey="3" Name="URL 2" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 3" DestinationUniqueKey="4" Name="URL 3" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 4" DestinationUniqueKey="5" Name="URL 4" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 5" DestinationUniqueKey="6" Name="URL 5" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 6" DestinationUniqueKey="7" Name="URL 6" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 7" DestinationUniqueKey="8" Name="URL 7" DestinationURL="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 8" DestinationUniqueKey="9" Name="URL 8" DestinationURL="https://www.educaloi.qc.ca" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 9" DestinationUniqueKey="10" Name="URL 9" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 10" DestinationUniqueKey="11" Name="URL 10" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 11" DestinationUniqueKey="12" Name="URL 11" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 12" DestinationUniqueKey="13" Name="URL 12" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 13" DestinationUniqueKey="14" Name="URL 13" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 14" DestinationUniqueKey="15" Name="URL 14" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 15" DestinationUniqueKey="16" Name="URL 15" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 16" DestinationUniqueKey="17" Name="URL 16" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 17" DestinationUniqueKey="18" Name="URL 17" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 18" DestinationUniqueKey="19" Name="URL 18" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 19" DestinationUniqueKey="20" Name="URL 19" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 20" DestinationUniqueKey="21" Name="URL 20" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 21" DestinationUniqueKey="22" Name="URL 21" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 22" DestinationUniqueKey="23" Name="URL 22" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 23" DestinationUniqueKey="24" Name="URL 23" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 24" DestinationUniqueKey="25" Name="URL 24" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 25" DestinationUniqueKey="26" Name="URL 25" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 26" DestinationUniqueKey="27" Name="URL 26" DestinationURL="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 27" DestinationUniqueKey="28" Name="URL 27" DestinationURL="https://www.educaloi.qc.ca" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 28" DestinationUniqueKey="29" Name="URL 28" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 29" DestinationUniqueKey="30" Name="URL 29" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 30" DestinationUniqueKey="31" Name="URL 30" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 31" DestinationUniqueKey="32" Name="URL 31" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 32" DestinationUniqueKey="33" Name="URL 32" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 33" DestinationUniqueKey="34" Name="URL 33" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 34" DestinationUniqueKey="35" Name="URL 34" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 35" DestinationUniqueKey="36" Name="URL 35" DestinationURL="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 36" DestinationUniqueKey="37" Name="URL 36" DestinationURL="https://www.educaloi.qc.ca" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 37" DestinationUniqueKey="38" Name="URL 37" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 38" DestinationUniqueKey="39" Name="URL 38" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 39" DestinationUniqueKey="40" Name="URL 39" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 40" DestinationUniqueKey="41" Name="URL 40" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 41" DestinationUniqueKey="42" Name="URL 41" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 42" DestinationUniqueKey="43" Name="URL 42" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 43" DestinationUniqueKey="44" Name="URL 43" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 44" DestinationUniqueKey="45" Name="URL 44" DestinationURL="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 45" DestinationUniqueKey="46" Name="URL 45" DestinationURL="https://www.educaloi.qc.ca" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 46" DestinationUniqueKey="47" Name="URL 46" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 47" DestinationUniqueKey="48" Name="URL 47" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 48" DestinationUniqueKey="49" Name="URL 48" DestinationURL="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 49" DestinationUniqueKey="50" Name="URL 49" DestinationURL="https://www.educaloi.qc.ca" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 50" DestinationUniqueKey="51" Name="URL 50" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 51" DestinationUniqueKey="52" Name="URL 51" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 52" DestinationUniqueKey="53" Name="URL 52" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 53" DestinationUniqueKey="54" Name="URL 53" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 54" DestinationUniqueKey="55" Name="URL 54" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 55" DestinationUniqueKey="56" Name="URL 55" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 56" DestinationUniqueKey="57" Name="URL 56" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 57" DestinationUniqueKey="58" Name="URL 57" DestinationURL="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 58" DestinationUniqueKey="59" Name="URL 58" DestinationURL="https://www.educaloi.qc.ca" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 59" DestinationUniqueKey="60" Name="URL 59" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 60" DestinationUniqueKey="61" Name="URL 60" DestinationURL="https://sitt.iww.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 61" DestinationUniqueKey="62" Name="URL 61" DestinationURL="http://sattaq.xyz" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 62" DestinationUniqueKey="63" Name="URL 62" DestinationURL="mailto:gwumontreal@gmail.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 63" DestinationUniqueKey="64" Name="URL 63" DestinationURL="https://gameworkersunite.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 64" DestinationUniqueKey="65" Name="URL 64" DestinationURL="https://gwumtl.com" Hidden="false" />
+	<Hyperlink Self="u1669" Name="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Source="u165a" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="60">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/URL 59</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u1667" Name="https://www.educaloi.qc.ca" Source="u165d" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="59">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/URL 58</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u1665" Name="http://legisquebec.gouv.qc.ca/en/showdoc/cs/N-1.1" Source="u165e" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="58">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/URL 57</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u1663" Name="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Source="u165f" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="57">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/URL 56</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u1661" Name="http://blg.com/en/News-And-Publications/Publication_5112" Source="u1660" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/link</Destination>
+		</Properties>
+	</Hyperlink>
 </Document>
