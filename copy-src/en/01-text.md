@@ -4,13 +4,30 @@
 
 Your status is determined by the following six criteria:
 
-- subordination to an employer
-- financial liability
-- ownership of tools
-- whether your work is integral to the activities of your work provider
-- whether your work ends upon achieving a specific result
-- the agreement between you and your work provider
+1. Subordination to an employer. You are likely an employee if your employer:
+    * Determines the conditions of your hiring and firing
+    * Sets your schedule and decides where you will work
+    * Defines your tasks and work methods
+    * Manages your activities
+    * Controls the execution of your work
+    * Is able take disciplinary action against you
+2. Financial liability
+    * Freelancers must cover their own business operating costs, and can make profits and losses
+    * Employees generally assume no financial risk
+3. Ownership of tools
+    * Freelancers supply their own tools
+    * Employees generally use tools owned by their employer
+4. Whether your work is integral to the activities of your work provider
+    * Freelancers’ work is generally not integral
+5. Whether your work ends upon achieving a specific result
+    * Freelancers are hired to achieve a specific result and have freedom to determine how they will achieve that result
+    * Employees are usually hired for a period of time
+6. The agreement between you and your work provider
+    * Different aspects of your contract affect classification
+    * Does your contract refer to you as an employee or an independent contractor? (note: this alone does not determine status)
+    * If you receive severance pay, or are eligible for your employers’ health benefits package, you are also more likely to be considered an employee
 
+Note that different entities (the CRA, CNESST, the courts) may come to different conclusions in determining whether a worker is an independent contractor (freelancer) or employee.
 
 ## Crunch and Overtime
 
@@ -19,16 +36,16 @@ Your status is determined by the following six criteria:
 Overtime pay is due if you work more than your regular weekly hours.
 
 - You are entitled to **an additional 50%** of your regular hourly pay.
-- At the employee's request, this can be replaced with **equivalent paid leave
+- At your request, this can be replaced with **equivalent paid leave
   plus 50%**.
 
-Salaried employes **are** entitled to overtime pay.
+Salaried employees **are** entitled to overtime pay.
 
 
 You have the right to refuse work if:
 
-- It is more than **2 hours** over a regular working day, or more than **14
-  hours** per day.
+- It is more than **2 hours** after regular daily working hours or more than 
+  **14 working hours** per twenty-four hour period, whichever period is the shortest.
 - You have worked more than **12 hours** in a **24 hour period** on a variable
   or non-continuous schedule.
 - You have worked more than **50 hours** in a week.
@@ -97,7 +114,7 @@ If your case is successful, the Labour Tribunal may order the employer to:
 
 ### Bill 176
 
-New additions to Québec's labour code regarding harassment.
+New additions to Québec's labour code regarding harassment, in 2019.
 
 “[Employers] must...adopt and make available to their employees a psychological
 harassment prevention and complaint processing policy that includes, in
@@ -112,7 +129,7 @@ In other words, harassment policies must **specifically address sexual
 harassment**.
 
 
-## Standards and Benefits
+## Standards and Benefits (Employees)
 
 Employers cannot give you worse working conditions or benefits than someone else
 doing the same tasks at the same company based **solely on hiring date**.
@@ -193,7 +210,7 @@ You **can't** end the contract during a time that causes the client damage — f
 example, the day before a big deadline.
 
 
-## Leaves and Absences
+## Leaves and Absences (Employees)
 
 +-----------------------+--------------------+
 | Reason for Absence    | Leave (typical)    |
@@ -213,8 +230,8 @@ example, the day before a big deadline.
 | birth or adoption     | - 2 days paid      |
 |                       | - 3 days unpaid    |
 +-----------------------+--------------------+
-| termination before    | - 3 weeks unpaid   |
-| 20th week             |                    |
+| terminating pregnancy | - 3 weeks unpaid   |
+| before 20th week      |                    |
 +-----------------------+--------------------+
 | maternity leave       | - 18 weeks unpaid  |
 +-----------------------+--------------------+
@@ -245,7 +262,7 @@ Full list of leaves and absences, with conditions and obligations:
 **https://bit.ly/2Na9hDW**
 
 
-## Vacations
+## Vacations (Employees)
 
 +--------------------+--------------------------+
 | Employment length  | Vacation & indemnity     |
@@ -267,7 +284,7 @@ Full list of leaves and absences, with conditions and obligations:
   unpaid leave**
 
 
-## Statutory Holidays
+## Statutory Holidays (Employees)
 
 Paid days off include:
 
@@ -289,7 +306,7 @@ If a statutory holiday falls on a non-work day **another day will be subsituted*
 - Statutory holidays do not apply to contract workers
 
 
-## Reprisals
+## Reprisals (Employees)
 
 Your employer or manager **cannot** dismiss, suspend or transfer, discriminate
 against, or punish you
@@ -335,7 +352,7 @@ works created by an independent contractor **remain their own**.
 - **Non-competition**: restricts a worker from working for another business that
   competes with the employer/client, and this could include as a freelancer
 
-With all of 3 of these clauses, it is important to **understand the scope**.
+With all of 3 of these clauses, as well as NDAs, it is important to **understand the scope**.
 Does it continue after the working relationship ends, and for how long?
 Non-competition provisions should specify what constitutes a competitive
 business, and where the restriction applies (city, province, country, online,
@@ -350,7 +367,7 @@ terms.
 
 ## Unionization Rights
 
-#### Every employee has the right to join, form, or participate in a union of their choice.
+#### Every worker has the right to join, form, or participate in a union of their choice.
 
 #### Restrictions on employers
 
@@ -384,5 +401,13 @@ You have **30 days** to file a complaint with the Labour Tribunal.
 - On top of legal reform, unions help transform and improve your whole industry
   for **every worker** by helping to establish standards and expectations.
 - Unions can help democratize company policies and politics.
-- Unions can also help **put a stop to employee misclassification** and the loss
-  of benefits that almost always entails.
+- Unions can also help **put a stop to employee misclassification** (when employers
+  treat workers who should be employees as freelancers in order to deny them basic rights)
+  and the loss of benefits that almost always entails.
+
+**Many employers get away with violating the legal rights of their workers** because
+those workers aren't unionized and have no way to fight back. **Unionizing is the best
+way to ensure our rights are respected.** If you suspect your rights are being violated,
+or are curious what the next steps are, **Game Workers Unite and S'ATTAQ are here to help
+you** - don't hesistate to contact us!
+
