@@ -1,3 +1,7 @@
+/**
+* THIS FILE WAS AUTO-GENERATED, DO NOT EDIT MANUALLY
+**/
+
 var _map = function _map(array, callback) {
   var newArray = [];
 
@@ -15,12 +19,15 @@ var _forEach = function _forEach(array, callback) {
 };
 
 // configure these here (for now)
-var locales = ["la"];
+var locales = ["fr"];
 var inddFilename = "KYR-Pamphlet.indd";
 var exportDirectory = "pdfs"; // must exist!
+
+var saveDirectory = "localized-indd"; // must exist!
 // //////////////
 
 var path = app.activeScript.path + "/";
+var savePath = path + saveDirectory + "/";
 var exportPath = path + exportDirectory + "/";
 var inddFile = new File("".concat(path).concat(inddFilename)); // we'd rather polyfill this with babel, but the extendscript preset doesn't do it
 
@@ -60,7 +67,7 @@ _forEach(locales, function (locale) {
 
     if (link.name.endsWith(".icml")) {
       var p = link.filePath;
-      var newFile = new File("".concat(p.substring(0, p.indexOf(".icml")), "-").concat(locale, ".icml"));
+      var newFile = new File(p.replace("\\en\\", "\\".concat(locale, "\\")));
 
       if (newFile.exists) {
         link.relink(newFile);
@@ -68,6 +75,8 @@ _forEach(locales, function (locale) {
     }
   }
 
+  var saveFileName = "".concat(savePath, "/").concat(locale, "-").concat(getFormattedTime(now), ".indd");
+  doc.saveACopy(new File(saveFileName));
   var exportFileName = "".concat(exportPath, "/").concat(locale, "-").concat(getFormattedTime(now), ".pdf");
   doc.exportFile(ExportFormat.PDF_TYPE, new File(exportFileName));
   doc.close(SaveOptions.NO);

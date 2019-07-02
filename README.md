@@ -27,9 +27,9 @@ An experimental script for creating localized PDFs for print based on InDesign
 files is included. On Windows, double-click "export-localized.bat" (or run it
 from the command-line). It will open the project file in InDesign, replace all
 document links with their localized versions for each language, and export a PDF
-of the result.
+and InDesign file of the result. **Note that you may have to close InDesign
+before running the script.**
 
 Note that this script has no guarantee of producing visually pleasing documents!
-It's just an experiment.
-
-**(TODO: fix localization script to reflect new folder structure.)**
+You will likely have to further modify the InDesign file and re-export it -- the
+script exists to help scaffold the initial work.

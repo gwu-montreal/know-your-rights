@@ -2,5 +2,15 @@
   "presets": [
     "@babel/preset-typescript",
     "extendscript"
+  ],
+  "plugins": [
+    [
+      "add-header-comment",
+      {
+        "header": [
+          "THIS FILE WAS AUTO-GENERATED, DO NOT EDIT MANUALLY"
+        ]
+      }
+    ]
   ]
 }

@@ -9,4 +9,5 @@ node_modules
 # InDesign lockfile
 *.idlk
 
-
+/localized-indd
+/pdfs

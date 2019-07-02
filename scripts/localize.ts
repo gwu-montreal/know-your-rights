@@ -1,10 +1,12 @@
 // configure these here (for now)
-const locales = ["la"];
+const locales = ["fr"];
 const inddFilename = "KYR-Pamphlet.indd";
 const exportDirectory = "pdfs"; // must exist!
+const saveDirectory = "localized-indd"; // must exist!
 // //////////////
 
 const path = app.activeScript.path + "/";
+const savePath = path + saveDirectory + "/";
 const exportPath = path + exportDirectory + "/";
 const inddFile = new File(`${path}${inddFilename}`);
 
@@ -45,14 +47,15 @@ locales.forEach(locale => {
     const link = doc.links[i];
     if (link.name.endsWith(".icml")) {
       const p = link.filePath as string;
-      const newFile = new File(
-        `${p.substring(0, p.indexOf(".icml"))}-${locale}.icml`
-      );
+      const newFile = new File(p.replace("\\en\\", `\\${locale}\\`));
       if (newFile.exists) {
         link.relink(newFile);
       }
     }
   }
+
+  const saveFileName = `${savePath}/${locale}-${getFormattedTime(now)}.indd`;
+  doc.saveACopy(new File(saveFileName));
 
   const exportFileName = `${exportPath}/${locale}-${getFormattedTime(now)}.pdf`;
 

@@ -562,6 +562,11 @@ babel-messages@^6.23.0:
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-add-header-comment@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-add-header-comment/-/babel-plugin-add-header-comment-1.0.3.tgz#511c4901062640d5a480b4ac3edd6944195850ec"
+  integrity sha1-URxJAQYmQNWkgLSsPt1pRBlYUOw=
+
 babel-preset-extendscript@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/babel-preset-extendscript/-/babel-preset-extendscript-1.0.2.tgz#3611b1b904b9a98fa6aed1a9f6410295c8c4f6ff"
