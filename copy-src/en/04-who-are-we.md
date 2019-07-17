@@ -2,9 +2,9 @@
 
 ### About Game Workers Unite Montréal
 
-GWU Montréal is the local chapter of Game Workers Unite, a international
+**GWU Montréal** is the local chapter of Game Workers Unite, an international
 organization of people dedicated to advocating for workers' rights in the games
-industry. GWU is not a union, but is helping build labour power across the
+industry. GWU is not a union, but is helping organize workers across the
 globe. Montréal is notable for the number of game companies it hosts – workers
 here are a powerful force. Together, we can achieve better working conditions,
 recognition, and mutual support for all.

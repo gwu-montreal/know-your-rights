@@ -77,8 +77,11 @@
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>GWU Montréal</Content>
+  </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>GWU Montréal is the local chapter of Game Workers Unite, a international organization of people dedicated to advocating for workers’ rights in the games industry. GWU is not a union, but is helping build labour power across the globe. Montréal is notable for the number of game companies it hosts – workers here are a powerful force. Together, we can achieve better working conditions, recognition, and mutual support for all.</Content>
+    <Content> is the local chapter of Game Workers Unite, an international organization of people dedicated to advocating for workers’ rights in the games industry. GWU is not a union, but is helping organize workers across the globe. Montréal is notable for the number of game companies it hosts – workers here are a powerful force. Together, we can achieve better working conditions, recognition, and mutual support for all.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />

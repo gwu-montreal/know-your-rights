@@ -1,8 +1,8 @@
 ## Qui sommes-nous?
 
-### À propos de Game Workers Unite Montréal
+### À propos de GWU Montréal
 
-GWU Montréal est le chapitre local de Game Workers Unite, une organisation
+**Game Workers Unite Montréal** est le chapitre local de Game Workers Unite, une organisation
 internationale dédiée à la lutte pour les droits des travailleu·ses·rs de 
 l'industrie du jeu vidéo. GWU n'est pas un syndicat, mais aide à organiser
 les travailleu·ses·rs de l'industrie du jeu vidéo autour du monde. Montréal

@@ -106,10 +106,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>There are many definitions of a collective agreement, but as it’s defined by the Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Labour Code, it is </Content>
+    <Content>There are many definitions of a collective agreement, but as it’s defined by the Québec Labour Code, it is </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>“an agreement in writing respecting conditions of employment made between one or more certified associations and one or more employers or employers’ associations.”</Content>
@@ -247,10 +244,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The law in Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>requires an employee to be </Content>
+    <Content>The law in Québec requires an employee to be </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>“loyal”</Content>
@@ -511,10 +505,7 @@
     <Content>“employee”</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> in the Labour Code (Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>) excludes </Content>
+    <Content> in the Labour Code (Québec) excludes </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>“managers.”</Content>
@@ -565,10 +556,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>In Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>labour law, you may see reference to the term </Content>
+    <Content>In Québec labour law, you may see reference to the term </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>“natural or legal person”</Content>
@@ -754,10 +742,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Under Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>law, you’re a </Content>
+    <Content>Under Québec law, you’re a </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>“spouse”</Content>

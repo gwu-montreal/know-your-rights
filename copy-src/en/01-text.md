@@ -264,18 +264,18 @@ Full list of leaves and absences, with conditions and obligations:
 
 ## Vacations (Employees)
 
-+--------------------+--------------------------+
-| Employment length  | Vacation & indemnity     |
-+====================+==========================+
-| 1 year             | - 1 day/month of service |
-|                    | - 4% of wages earned     |
-+--------------------+--------------------------+
-| 1 - 3 years        | - 2 weeks                |
-|                    | - 4% of wages earned     |
-+--------------------+--------------------------+
-| 3 years or more    | - 3 weeks                |
-|                    | - 6% of wages earned     |
-+--------------------+--------------------------+
++-------------------+--------------------------+
+| Employment length | Vacation & indemnity     |
++===================+==========================+
+| 1 year            | - 1 day/month of service |
+|                   | - 4% of wages earned     |
++-------------------+--------------------------+
+| 1 - 3 years       | - 2 weeks                |
+|                   | - 4% of wages earned     |
++-------------------+--------------------------+
+| 3 years or more   | - 3 weeks                |
+|                   | - 6% of wages earned     |
++-------------------+--------------------------+
 
 - indemnities (additional sums of money that do not include wages) are
   calculated based on the wages you earned during the previous year

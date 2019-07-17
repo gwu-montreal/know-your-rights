@@ -1433,7 +1433,7 @@
 </ParagraphStyleRange>
 <Br />
 <Table AppliedTableStyle="TableStyle/Table" HeaderRowCount="1" BodyRowCount="3" ColumnCount="2">
-  <Column Name="0" SingleColumnWidth="145.83333333333334" />
+  <Column Name="0" SingleColumnWidth="138.88888888888889" />
   <Column Name="1" SingleColumnWidth="187.5" />
   <Cell Name="0:0" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">

@@ -9,12 +9,6 @@
           <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
         </Properties>
       </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Code" Name="Code">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-          <AppliedFont type="string">Courier New</AppliedFont>
-        </Properties>
-      </CharacterStyle>
       <CharacterStyle Self="CharacterStyle/Link" Name="Link">
         <Properties>
           <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
@@ -82,22 +76,10 @@
     <Content>La </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Commission des normes, de l’</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>, de la sant</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>et de la s</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>du travail</Content>
+    <Content>Commission des normes, de l’équité, de la santé et de la sécurité du travail</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>. Cette commission en </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>auparavant deux: la </Content>
+    <Content>. Cette commission en était auparavant deux: la </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>CNT</Content>
@@ -109,16 +91,7 @@
     <Content>CSST</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> (Commission de la sant</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>et de la s</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>du travail), vous trouverez donc peut-être des r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` ces noms.</Content>
+    <Content> (Commission de la santé et de la sécurité du travail), vous trouverez donc peut-être des références à ces noms.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -138,16 +111,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Introduction accessible </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` une vari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de sujets l</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>.</Content>
+    <Content>Introduction accessible à une variété de sujets légaux.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -161,7 +125,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Loi du travail du Qu</Content>
+    <Content>Loi du travail du Québec</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -193,19 +157,13 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>loi canadienne sur les droits de la personne</Content>
+    <Content>Loi canadienne sur les droits de la personne</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>“Loi visant </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>compl\eter la l\egislation canadienne en mati\e</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>re de discrimination.”</Content>
+    <Content>“Loi visant à compléter la législation canadienne en matière de discrimination.”</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -225,19 +183,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Discussion br</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>ve de quelques enjeux l\egaux et cons\equences autours des contrats d'emploiment \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> dur</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>fixe au Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>.</Content>
+    <Content>Discussion brève de quelques enjeux légaux et conséquences autours des contrats d’emploiment à durée fixe au Québec.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />

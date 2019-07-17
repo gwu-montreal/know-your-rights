@@ -8,23 +8,6 @@
         <Properties>
           <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
         </Properties>
-      </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Bold Code" Name="Bold Code" FontStyle="Bold">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-          <AppliedFont type="string">Courier New</AppliedFont>
-        </Properties>
-      </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Code" Name="Code">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-          <AppliedFont type="string">Courier New</AppliedFont>
-        </Properties>
-      </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-        </Properties>
       </CharacterStyle> 
     </RootCharacterStyleGroup>
     <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
@@ -60,6 +43,32 @@
         </Properties>
       </ParagraphStyle>
       <ParagraphStyle Self="ParagraphStyle/BulList &gt; first" Name="BulList &gt; first" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Cols-2 &gt; BulList" Name="Cols-2 &gt; BulList" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Cols-2 &gt; BulList &gt; first" Name="Cols-2 &gt; BulList &gt; first" BulletsAndNumberingListType="BulletList" LeftIndent="0">
         <Properties>
           <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
           <TabList type="list">
@@ -169,17 +178,7 @@
           </TabList>
         </Properties>
       </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/TablePar &gt; Paragraph" Name="TablePar &gt; Paragraph" LeftIndent="0">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle>
       <ParagraphStyle Self="ParagraphStyle/TablePar &gt; TableHeader" Name="TablePar &gt; TableHeader" LeftIndent="0" FontStyle="Bold">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/TablePar &gt; TableHeader &gt; Paragraph" Name="TablePar &gt; TableHeader &gt; Paragraph" LeftIndent="0" FontStyle="Bold">
         <Properties>
           <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
         </Properties>
@@ -201,67 +200,55 @@
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Êtes-vous salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e ou travailleu·se·r autonome?</Content>
+    <Content>Êtes-vous salarié·e ou travailleu·se·r autonome?</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Voici comment faire la diff</Content>
+    <Content>Voici comment faire la différence</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Votre statut est d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>par les six crit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`res qui suivent:</Content>
+    <Content>Votre statut est déterminé par les six critères qui suivent:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Subordination </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>un employeur. Vous êtes probablement salari\e si votre employeur:  * D\etermine les conditions de votre recrutement et de votre licenciement  * D\ecide de votre horaire et du lieu o\u</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> vous travaillez</Content>
+    <Content>Subordination à un employeur. Vous êtes probablement salarié si votre employeur:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>D</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vos tâches et m</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de travail</Content>
+    <Content>Détermine les conditions de votre recrutement et de votre licenciement</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Supervise vos activit</Content>
+    <Content>Décide de votre horaire et du lieu où vous travaillez</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Contrôle l’ex</Content>
+    <Content>Définit vos tâches et méthodes de travail</Content>
   </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de votre travail</Content>
+    <Content>Supervise vos activités</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Contrôle l’exécution de votre travail</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -273,43 +260,25 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Responsabilit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>financi</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`re</Content>
+    <Content>Responsabilité financière</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les travailleu·ses·rs autonomes doivent couvrir leurs propres frais d’op</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, et peuvent faire des profits et des pertes.</Content>
+    <Content>Les travailleu·ses·rs autonomes doivent couvrir leurs propres frais d’opération, et peuvent faire des profits et des pertes.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s n’assument en g</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>aucun risque financier.</Content>
+    <Content>Les salarié·e·s n’assument en général aucun risque financier.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Droits de propri</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>sur les outils</Content>
+    <Content>Droits de propriété sur les outils</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -321,85 +290,37 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s utilisent g</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>des outils fournis par leur employeur</Content>
+    <Content>Les salarié·e·s utilisent généralement des outils fournis par leur employeur</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si votre travail est int</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>aux activit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de votre fournisseur d’emploi</Content>
+    <Content>Si votre travail est intégral aux activités de votre fournisseur d’emploi</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Le travail des travailleu·ses·rs autonomes n’est g</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pas int</Content>
+    <Content>Le travail des travailleu·ses·rs autonomes n’est généralement pas intégral</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si votre travail se termine une fois l’accomplissement d’un r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>sp</Content>
+    <Content>Si votre travail se termine une fois l’accomplissement d’un résultat spécifique</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les travailleu·ses·rs autonomes sont engag</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s pour accomplir un r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>sp</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, et ont libert</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>la mani</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`re d’accomplir ce r</Content>
+    <Content>Les travailleu·ses·rs autonomes sont engagé·e·s pour accomplir un résultat spécifié, et ont liberté de déterminer la manière d’accomplir ce résultat</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s sont g</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>engag</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s pour une p</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de temps</Content>
+    <Content>Les salarié·e·s sont généralement engagé·e·s pour une période de temps</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -411,127 +332,67 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Diff</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>aspects de votre contrat peuvent affecter votre classification</Content>
+    <Content>Différents aspects de votre contrat peuvent affecter votre classification</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Votre contrat se r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>re-t-il \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> vous comme salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e ou comme travailleu·se·r autonome? (Note: ceci ne d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pas votre statut en soi)</Content>
+    <Content>Votre contrat se réfère-t-il à vous comme salarié·e ou comme travailleu·se·r autonome? (Note: ceci ne détermine pas votre statut en soi)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si vous recevez une prime de licenciement, ou si vous êtes </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>aux avantages sociaux de votre employeur, vous avez </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>plus de chance d’être consid</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>comme salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e</Content>
+    <Content>Si vous recevez une prime de licenciement, ou si vous êtes éligible aux avantages sociaux de votre employeur, vous avez également plus de chance d’être considéré comme salarié·e</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Notez que diff</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>entit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>(l’ARC, la CNESST, les cours) peuvent arriver </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` des conclusions diff</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>lorsqu’elles d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>si un·e travailleu·se·r est salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e ou travailleu·se·r autonome</Content>
+    <Content>Notez que différentes entités (l’ARC, la CNESST, les cours) peuvent arriver à des conclusions différentes lorsqu’elles déterminent si un·e travailleu·se·r est salarié·e ou travailleu·se·r autonome</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Le crunch et les heures suppl</Content>
+    <Content>Le crunch et les heures supplémentaires</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Pour les salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s:</Content>
+    <Content>Pour les salarié·e·s:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Le paiement en heures suppl</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vouse est dû si vous travaillez plus que vos heures r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`res de semaine.</Content>
+    <Content>Le paiement en heures supplémentaires vouse est dû si vous travaillez plus que vos heures régulières de semaine.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vous avez droit </Content>
+    <Content>Vous avez droit à un </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>un **50% additionel** de votre paie r\eguli\e</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>50% additionel</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>re par heure.</Content>
+    <Content> de votre paie régulière par heure.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` votre requête, ceci peut être remplac</Content>
+    <Content>À votre requête, ceci peut être remplacé </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>un congé payé de durée équivalente plus 50%</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*un cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de dur</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>plus 50%**.</Content>
+    <Content>.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -543,16 +404,10 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Il dure plus de deux heures de plus par jour qu’un jour de travail r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, ou plus de </Content>
+    <Content>Il dure plus de deux heures de plus par jour qu’un jour de travail régulier, ou plus de </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>14 heures par p</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>de 24h.</Content>
+    <Content>14 heures par période de 24h.</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, selon lequel est le plus court.</Content>
@@ -561,10 +416,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vous avez travaill</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>plus de </Content>
+    <Content>Vous avez travaillé plus de </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>12 heures</Content>
@@ -573,10 +425,7 @@
     <Content> dans une </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>p</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>de 24h</Content>
+    <Content>période de 24h</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content> sur un horaire variable ou discontinu.</Content>
@@ -585,10 +434,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vous avez travaill</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>plus de </Content>
+    <Content>Vous avez travaillé plus de </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>50 heures</Content>
@@ -600,25 +446,19 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vous n’avez pas </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e au moins </Content>
+    <Content>Vous n’avez pas été prévenu·e au moins </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>5 jours</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
+    <Content> à l’avance, </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>l'avance, **\a</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>à moins</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> moins** que la nature du travail ne requiert que vous restiez disponible (par exemple, les services d’urgence).</Content>
+    <Content> que la nature du travail ne requiert que vous restiez disponible (par exemple, les services d’urgence).</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -630,13 +470,7 @@
     <Content>pas le droit</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> de vous renvoyer, de retirer vos avantages sociaux, de r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> votre paie, ou de vous punir de quelque autre mani</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`re pour avoir fait exercice de vos droits.</Content>
+    <Content> de vous renvoyer, de retirer vos avantages sociaux, de réduire votre paie, ou de vous punir de quelque autre manière pour avoir fait exercice de vos droits.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -663,10 +497,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Le harc</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`lement</Content>
+    <Content>Le harcèlement</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -696,52 +527,37 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>D</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>ce qu’une </Content>
+    <Content>Dépasse ce qu’une </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>“personne raisonnable”</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> peut consid</Content>
+    <Content> peut considèrers approprié dans le contexte de son travail, et est </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>de nature répétitive</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`rers appropri</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>dans le contexte de son travail, et est **de nature r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*.</Content>
+    <Content>.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Le harc</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`lement psychologique inclut les commentaires verbaux, les actes et gestes de nature sexuelle:</Content>
+    <Content>Le harcèlement psychologique inclut les commentaires verbaux, les actes et gestes de nature sexuelle:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>qui sont hostiles ou non d</Content>
+    <Content>qui sont hostiles ou non désirées</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>qui affectent votre dignit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>ou votre sant</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>physique ou mentale</Content>
+    <Content>qui affectent votre dignité ou votre santé physique ou mentale</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -753,28 +569,91 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Il peut se produire sur la base de: ::: {custom-style=</Content>
+    <Content>Il peut se produire sur la base de:</Content>
   </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>“Cols-2”</Content>
+    <Content>La différence raciale</Content>
   </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>} - La diff</Content>
+    <Content>La couleur</Content>
   </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>raciale - La couleur - Le sexe - Le fait d’être enceint·e - Le statut civil - L’âge - Les convictions politiques - Le handicap - La condition sociale - L’origine ethnique - La langue - L’orientation sexuelle - L’identit</Content>
+    <Content>Le sexe</Content>
   </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de genre ou son expression :::</Content>
+    <Content>Le fait d’être enceint·e</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Le statut civil</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>L’âge</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Les convictions politiques</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Le handicap</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>La condition sociale</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>L’origine ethnique</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>La langue</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>L’orientation sexuelle</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Cols-2 &gt; BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>L’identité de genre ou son expression</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Para-Bold &gt; Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vous avez jusqu’</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` </Content>
+    <Content>Vous avez jusqu’à </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>2 ans</Content>
@@ -801,10 +680,7 @@
     <Content>Gardez une copie</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> des courriels, textes, captures d’</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, etc. Sur un appareil personnel (pas un appareil de travail!).</Content>
+    <Content> des courriels, textes, captures d’écran, etc. Sur un appareil personnel (pas un appareil de travail!).</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -813,25 +689,13 @@
     <Content>Gardez un journal</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> avec les dates, les heures, les lieux, les noms, et une description des </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>et de comment ils vous ont fait vous sentir.</Content>
+    <Content> avec les dates, les heures, les lieux, les noms, et une description des événements et de comment ils vous ont fait vous sentir.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si votre cas est r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, le tribunal administratif du travail peut ordonner </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>l'employeur de: - vous r\e-engager si vous avez \et\e renvoy\e·e - vous compenser pour perte de salaire - prendre des actions raisonnables pour mettre fin au harc\e</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>lement - vous payer des dommages punitifs et moraux</Content>
+    <Content>Si votre cas est réussi, le tribunal administratif du travail peut ordonner à l’employeur de: - vous ré-engager si vous avez été renvoyé·e - vous compenser pour perte de salaire - prendre des actions raisonnables pour mettre fin au harcèlement - vous payer des dommages punitifs et moraux</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -843,37 +707,16 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Nouveaux ajouts au code du travail du Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>en ce qui conc</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>rne le harc\e</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>lement, en 2019.</Content>
+    <Content>Nouveaux ajouts au code du travail du Québec en ce qui concèrne le harcèlement, en 2019.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>«[Tout employeur] doit…adopter et rendre disponible </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>ses salari\es une politique de  pr\evention du harc\e</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>lement psychologique et de traitement des plaintes, incluant entre autres un volet concernant les conduites qui se manifestent par </Content>
+    <Content>«[Tout employeur] doit…adopter et rendre disponible à ses salariés une politique de prévention du harcèlement psychologique et de traitement des plaintes, incluant entre autres un volet concernant les conduites qui se manifestent par </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>des paroles, des actes ou des gestes </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold Code">
-    <Content>caract\e</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>re sexuel</Content>
+    <Content>des paroles, des actes ou des gestes à caractère sexuel</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>.»</Content>
@@ -888,37 +731,31 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>En d’autres termes, les politiques anti-harc</Content>
+    <Content>En d’autres termes, les politiques anti-harcèlement doivent </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>lement doivent **addresser sp\ecifiquement le harc\e</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>addresser spécifiquement le harcèlement sexuel</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>lement sexuel**.</Content>
+    <Content>.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les standards et avantages sociaux (Salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s)</Content>
+    <Content>Les standards et avantages sociaux (Salarié·e·s)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Un employeur ne peut pas vous donner de conditions de travail ou d’avantages qui soient pires que ceux de quelqu’un qui fasse les mêmes tâches </Content>
+    <Content>Un employeur ne peut pas vous donner de conditions de travail ou d’avantages qui soient pires que ceux de quelqu’un qui fasse les mêmes tâches à la même compagnie, </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>la même compagnie, **seulement parce que vous avez \et\e engag\e·e·s \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> une date diff</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>seulement parce que vous avez été engagé·e·s à une date différente</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*.</Content>
+    <Content>.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -942,64 +779,37 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>jours f</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>et jours pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>sans travail</Content>
+    <Content>jours fériés et jours payés sans travail</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>annuels</Content>
+    <Content>congés payés annuels</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>p</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de repos</Content>
+    <Content>périodes de repos</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>absences dûes </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` des raisons de sant</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, d’accident, ou d’offense criminelle</Content>
+    <Content>absences dûes à des raisons de santé, d’accident, ou d’offense criminelle</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>absences et cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pour raisons familiales ou parentales</Content>
+    <Content>absences et congés pour raisons familiales ou parentales</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>avis de r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>ou licenciement et certificat de travail</Content>
+    <Content>avis de résiliation ou licenciement et certificat de travail</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1011,37 +821,31 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>R</Content>
+    <Content>Résiliation</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Pour les salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s:</Content>
+    <Content>Pour les salarié·e·s:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vous devez recevoir un pr</Content>
+    <Content>Vous devez recevoir un préavis </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>écrit</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> si vous avez travaill</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>plus de 3 mois.</Content>
+    <Content> si vous avez travaillé plus de 3 mois.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Combien de temps de pr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>?</Content>
+    <Content>Combien de temps de préavis?</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1051,26 +855,14 @@
   <Cell Name="0:0" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>Dur</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>de service non interrompu</Content>
+        <Content>Durée de service non interrompu</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="1:0" AppliedCellStyle="CellStyle/Cell">
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; Paragraph">
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>P</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>de</Content>
-      </CharacterStyleRange>
-    </ParagraphStyleRange>
-    <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>pr</Content>
+        <Content>Période de préavis</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1117,9 +909,9 @@
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="0:4" AppliedCellStyle="CellStyle/Cell">
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>de 10 ans</Content>
+        <Content>plus de 10 ans</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1136,22 +928,22 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si vous n’avez pas re</Content>
+    <Content>Si vous n’avez pas reçu assez de temps de préavis, l’employeur doit vous payer une somme égale à ce que vous auriez gagné pendant la période de préavis.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Cette somme, ainsi que </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>toute somme due pour les vacances ou le travail supplémentaire</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>assez de temps de pr</Content>
+    <Content> doit être payée </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, l’employeur doit vous payer une somme </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` ce que vous auriez gagn</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pendant la p</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de pr</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>au moment de la résiliation</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>.</Content>
@@ -1160,25 +952,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Cette somme, ainsi que **toute somme due pour les vacances ou le travail suppl</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-    <Content> doit être pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>au moment de la r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*.</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si vous avez travaill</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>au moins 2 ans de service non interrompu pour le même employeur, il ne peut pas vous renvoyer sans </Content>
+    <Content>Si vous avez travaillé au moins 2 ans de service non interrompu pour le même employeur, il ne peut pas vous renvoyer sans </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>“bonne et suffisante raison”</Content>
@@ -1190,22 +964,43 @@
     <Content>ils doivent prouver</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> qu’ils avaient une raison s</Content>
+    <Content> qu’ils avaient une raison sérieuse de vous renvoyer. Ces raisons peuvent inclure: </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>la malhonnèteté</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> de vous renvoyer. Ces raisons peuvent inclure: **la malhonn</Content>
+    <Content>, </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>tet\e**, **l'insubordination**, **la n\egligence**, **l'incompetence** et **la mauvaise performance**. (voir le glossaire pour la d\efinition de certains de ces termes.) Vous avez **jusqu'\a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> 45 jours apr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>s votre renvoi** pour enregistrer une plainte aupr\e</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>l’insubordination</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>s de la CNESST.</Content>
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>la négligence</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>l’incompetence</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> et </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>la mauvaise performance</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. (voir le glossaire pour la définition de certains de ces termes.) Vous avez </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>jusqu’à 45 jours après votre renvoi</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> pour enregistrer une plainte auprès de la CNESST.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1217,13 +1012,7 @@
     <Content>ne s’appliquent pas</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> aux employ</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>qui ont travaill</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> pour </Content>
+    <Content> aux employés qui ont travaillé pour </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>moins de 3 mois</Content>
@@ -1235,58 +1024,25 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Exceptions (quand un pr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>n’est pas requis):</Content>
+    <Content>Exceptions (quand un préavis n’est pas requis):</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vous avez </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>engag</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e pour une tâche sp</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>qui a </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>accomplie.</Content>
+    <Content>vous avez été engagé·e pour une tâche spécifique qui a été accomplie.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vous </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>sur un contrat a dur</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>limit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, et le contrat s’est termin</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>.</Content>
+    <Content>vous étiez sur un contrat a durée limitée, et le contrat s’est terminé.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vous êtes licenci</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e temporairement pour une p</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de moins de 6 mois.</Content>
+    <Content>vous êtes licencié·e temporairement pour une période de moins de 6 mois.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1301,37 +1057,25 @@
     <Content>Oui</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, et ce même sans le consentement du client. Mais vous avez besoin d’une raison s</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>:</Content>
+    <Content>, et ce même sans le consentement du client. Mais vous avez besoin d’une raison sérieuse:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>le client interf</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`re r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>avec le travail</Content>
+    <Content>le client interfère répétitivement avec le travail</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>le client refuse de coop</Content>
+    <Content>le client refuse de coopérer</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>le client est abusif, d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, ou impoli</Content>
+    <Content>le client est abusif, désagréable, ou impoli</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1343,28 +1087,25 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les raisons s</Content>
+    <Content>Les raisons sérieuses </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>n’incluent pas</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*n’incluent pas**:</Content>
+    <Content>:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>si vous n’avez pas charg</Content>
+    <Content>si vous n’avez pas chargé un prix assez haut, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>à moins</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>un prix assez haut, **</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>moins** que ce soit dû \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> de la d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de la part du client</Content>
+    <Content> que ce soit dû à de la désinformation de la part du client</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1376,10 +1117,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>le client n’a pas pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>certains frais minimes</Content>
+    <Content>le client n’a pas payé certains frais minimes</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1391,25 +1129,13 @@
     <Content>ne pouvez pas</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> mettre fin au contrat pendant une p</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>qui cause dommage au client — par exemple, le jour avant une date d’</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>importante.</Content>
+    <Content> mettre fin au contrat pendant une période qui cause dommage au client — par exemple, le jour avant une date d’échéance importante.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>et absences (Salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s)</Content>
+    <Content>Congés et absences (Salarié·e·s)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1426,10 +1152,7 @@
   <Cell Name="1:0" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>Cong</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>(typique)</Content>
+        <Content>Congé (typique)</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1443,13 +1166,13 @@
   <Cell Name="1:1" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>2 jours pay</Content>
+        <Content>2 jours payés</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>26 semaines non pay</Content>
+        <Content>26 semaines non payées*</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1463,39 +1186,33 @@
   <Cell Name="1:2" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>2 jours pay</Content>
+        <Content>2 jours payés</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>8 jours non pay</Content>
+        <Content>8 jours non payés</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="0:3" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>fun</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>de l’</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>·se·x ou famille proche |</Content>
+        <Content>funéraille de l’épou·se·x ou famille proche</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="1:3" AppliedCellStyle="CellStyle/Cell">
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; Paragraph">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>- 2 jours pay</Content>
+        <Content>2 jours payés</Content>
       </CharacterStyleRange>
+    </ParagraphStyleRange>
+    <Br />
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>&#x2028;</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>- 3 jours non pay</Content>
+        <Content>3 jours non payés</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1509,7 +1226,7 @@
   <Cell Name="1:4" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>1 jour pay</Content>
+        <Content>1 jour payé</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1523,84 +1240,69 @@
   <Cell Name="1:5" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>2 jours pay</Content>
+        <Content>2 jours payés</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>3 jours non pay</Content>
+        <Content>3 jours non payés</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="0:6" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>interruption de grossesse avant la 20</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>`me semaine</Content>
+        <Content>interruption de grossesse avant la 20ème semaine</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="1:6" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>3 semaines non pay</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content> |</Content>
+        <Content>3 semaines non payées</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="0:7" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>cong</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>de maternit</Content>
+        <Content>congé de maternité</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="1:7" AppliedCellStyle="CellStyle/Cell">
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; Paragraph">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>- 18 semaines non pay</Content>
+        <Content>18 semaines non payées</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="0:8" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>cong</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>de paternit</Content>
+        <Content>congé de paternité</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="1:8" AppliedCellStyle="CellStyle/Cell">
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; Paragraph">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>- 5 semaines non pay</Content>
+        <Content>5 semaines non payées</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="0:9" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>cong</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>parental***</Content>
+        <Content>congé parental***</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="1:9" AppliedCellStyle="CellStyle/Cell">
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; Paragraph">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>- 52 semaines non pay</Content>
+        <Content>52 semaines non payées</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1610,34 +1312,19 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>* n</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>au moins 3 mois de service non interrompu</Content>
+    <Content>* nécessite au moins 3 mois de service non interrompu</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>** la famille proches inclut les parents, les enfants, et les fr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`res/soeurs/adelphes</Content>
+    <Content>** la famille proches inclut les parents, les enfants, et les frères/soeurs/adelphes</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*** le cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>parental peut être pris en plus du cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de maternit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>/paternit</Content>
+    <Content>*** le congé parental peut être pris en plus du congé de maternité/paternité</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1664,16 +1351,10 @@
     <Content> ou de </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>votre paie</Content>
+    <Content>réduire votre paie</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> si vous êtes absent pour quelconque de ces raisons pour le temps accord</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>.</Content>
+    <Content> si vous êtes absent pour quelconque de ces raisons pour le temps accordé.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1685,37 +1366,19 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>dans la plupart des cas les salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s doivent donner pr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>aussi tôt que possible</Content>
+    <Content>dans la plupart des cas les salarié·e·s doivent donner préavis aussi tôt que possible</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>si vous êtes absent·e de mani</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`re r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>votre employeur peut demander un document qui atteste des raisons de votre absence (par exemple, une note d’un docteur)</Content>
+    <Content>si vous êtes absent·e de manière répétitive votre employeur peut demander un document qui atteste des raisons de votre absence (par exemple, une note d’un docteur)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>List compl</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`te des cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>et absences, avec conditions et obligations: </Content>
+    <Content>List complète des congés et absences, avec conditions et obligations: </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>https://bit.ly/2XGQc3M</Content>
@@ -1724,30 +1387,24 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vacances (Salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s)</Content>
+    <Content>Vacances (Salarié·e·s)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <Table AppliedTableStyle="TableStyle/Table" HeaderRowCount="1" BodyRowCount="3" ColumnCount="2">
-  <Column Name="0" SingleColumnWidth="145.83333333333334" />
+  <Column Name="0" SingleColumnWidth="138.88888888888889" />
   <Column Name="1" SingleColumnWidth="187.5" />
   <Cell Name="0:0" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>Dur</Content>
-      </CharacterStyleRange>
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>d’emploi</Content>
+        <Content>Durée d’emploi</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
   <Cell Name="1:0" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>| Vacances et indemnit</Content>
+        <Content>Vacances et indemnité</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1767,7 +1424,7 @@
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>4% du salaire gagn</Content>
+        <Content>4% du salaire gagné</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1787,7 +1444,7 @@
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>4% du salaire gagn</Content>
+        <Content>4% du salaire gagné</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1807,7 +1464,7 @@
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>6% du salaire gagn</Content>
+        <Content>6% du salaire gagné</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1817,79 +1474,34 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>les indemnit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>(sommes d’argent additionnelles qui n’incluent pas le salaire) sont calcul</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>sur la base du salaire que vous avez gagn</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>l’ann</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pr</Content>
+    <Content>les indemnités (sommes d’argent additionnelles qui n’incluent pas le salaire) sont calculées sur la base du salaire que vous avez gagné l’année précédente</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>les indemnit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>doivent être pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>en une fois avant le d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de votre vacance</Content>
+    <Content>les indemnités doivent être payées en une fois avant le début de votre vacance</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>un employ</Content>
+    <Content>un employé qui a déjà droit à 2 semaines peut prendre </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>qui a d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>droit \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> 2 semaines peut prendre **1 semaine de plus de cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>non pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>1 semaine de plus de congé non payé</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Jours f</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>(Salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s)</Content>
+    <Content>Jours fériés (Salarié·e·s)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les jours de cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pay</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>incluent:</Content>
+    <Content>Les jours de congé payés incluent:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1907,10 +1519,7 @@
     <Content>Le Vendredi Saint et Pâques</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> - avant/apr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`s le dimanche de Pâques</Content>
+    <Content> - avant/après le dimanche de Pâques</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1928,10 +1537,7 @@
     <Content>Saint Jean Baptiste</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> - 24 juin (Qu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>seulement)</Content>
+    <Content> - 24 juin (Québec seulement)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1958,10 +1564,7 @@
     <Content>Action de grâce</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> - 2</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`me lundi d’octobre</Content>
+    <Content> - 2ème lundi d’octobre</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1970,19 +1573,19 @@
     <Content>Noël</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> - 25 d</Content>
+    <Content> - 25 décembre</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si un jour f</Content>
+    <Content>Si un jour férié tombe sur un jour sans travail </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>un autre jour sera substitué</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>tombe sur un jour sans travail **un autre jour sera substitu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*.</Content>
+    <Content>.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1994,37 +1597,19 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Un employ</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>doit avoir travaill</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>au moins 30 jours pour avoir droit au cong</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pay</Content>
+    <Content>Un employé doit avoir travaillé au moins 30 jours pour avoir droit au congé payé</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les jours f</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>ne s’appliquent pas aux travailleu·ses·rs autonomes</Content>
+    <Content>Les jours fériés ne s’appliquent pas aux travailleu·ses·rs autonomes</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Repr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>(Salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s)</Content>
+    <Content>Représailles (Salarié·e·s)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2036,10 +1621,7 @@
     <Content>ne peut pas</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> vous renvoyer, suspendre, transf</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, faire discrimination, ou punir</Content>
+    <Content> vous renvoyer, suspendre, transférer, faire discrimination, ou punir</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2051,10 +1633,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pour enregistrer une plainte avec la commissions des normes du travail, ou pour fournir des preuves </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` une investigation</Content>
+    <Content>pour enregistrer une plainte avec la commissions des normes du travail, ou pour fournir des preuves à une investigation</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2066,94 +1645,52 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>parce que vous avez refus</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de faire du travail suppl</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>afin de vous occuper de votre enfant ou famille proche (si vous êtes aidant·e principal·e)</Content>
+    <Content>parce que vous avez refusé de faire du travail supplémentaire afin de vous occuper de votre enfant ou famille proche (si vous êtes aidant·e principal·e)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>parce que vous avez atteint l’âge de la retraite, ou pour </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de remplir les obligations de la loi sur les r</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>volontaires d’</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>-retraite</Content>
+    <Content>parce que vous avez atteint l’âge de la retraite, ou pour éviter de remplir les obligations de la loi sur les régimes volontaires d’épargne-retraite</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si vos droits se trouvent ainsi viol</Content>
+    <Content>Si vos droits se trouvent ainsi violés, vous avez jusqu’à </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>45 jours</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, vous avez jusqu’</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>**45 jours** pour enregistrer une plaine aupr\e</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>s de la commission des normes du travail.</Content>
+    <Content> pour enregistrer une plaine auprès de la commission des normes du travail.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Propri</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>intellectuelle</Content>
+    <Content>Propriété intellectuelle</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Dans l’absence d’un accord contraire, les droits d’auteur des cr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
+    <Content>Dans l’absence d’un accord contraire, les droits d’auteur des créations </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>d’un·e salari</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>·e</Content>
+    <Content>d’un·e salarié·e</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content> au cours de son emploi seront automatiquement </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>la propri</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>de son employeur</Content>
+    <Content>la propriété de son employeur</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Attention </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>d’utiliser la propri</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de l’employeur (ordinateurs, etc.) pour la cr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>en dehors des heures et de la description de travail.</Content>
+    <Content>Attention à éviter d’utiliser la propriété de l’employeur (ordinateurs, etc.) pour la création en dehors des heures et de la description de travail.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2162,37 +1699,28 @@
     <Content>En absence d’un accord </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>* contraire, les droits d’auteur pour toute cr</Content>
+    <Content>écrit</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> contraire, les droits d’auteur pour toute création par un·e travailleu·se·r autonome </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>par un·e travailleu·se·r autonome </Content>
+    <Content>restent sa propriété</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>restent sa propri</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*.</Content>
+    <Content>.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Avant de signer un accord, assurez-vous que c</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` votre client votre propri</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> intellectuelle ne vous empêchera pas de faire votre travail comme vous le faisez normalemenet.</Content>
+    <Content>Avant de signer un accord, assurez-vous que céder à votre client votre propriété intellectuelle ne vous empêchera pas de faire votre travail comme vous le faisez normalemenet.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>accord de confidentialit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, non-conccurence, etc.</Content>
+    <Content>Accord de confidentialité, non-conccurence, etc.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2207,10 +1735,7 @@
     <Content>Non-emploi</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>: empêche un·e travailleu·se·r d’engager ou de travailler avec les autres employ</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s de l’employeur/client</Content>
+    <Content>: empêche un·e travailleu·se·r d’engager ou de travailler avec les autres employé·e·s de l’employeur/client</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2224,32 +1749,23 @@
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>**Non-comp</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Non-compétition</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*: empêche un·e travailleu·se·r de travailler pour un autre employeur qui fait comp</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` l’employeur/client, ce qui peut inclure en tant que travailleu·se·r autonome</Content>
+    <Content>: empêche un·e travailleu·se·r de travailler pour un autre employeur qui fait compétition à l’employeur/client, ce qui peut inclure en tant que travailleu·se·r autonome</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Avec chacune de ces 3 clauses, il est important de **comprendre l’</Content>
+    <Content>Avec chacune de ces 3 clauses, il est important de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>comprendre l’étendue</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>*. Est-ce qu’elle continue apr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>s que la relation de travail se termine, et pour combien de temps? Les clauses de non-comp\etition doivent pr\eciser ce qui constitue une activit\e en comp\etition, et l\a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> o</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> la restriction s’applique (ville, province, pays, en ligne, etc).</Content>
+    <Content>. Est-ce qu’elle continue après que la relation de travail se termine, et pour combien de temps? Les clauses de non-compétition doivent préciser ce qui constitue une activité en compétition, et là où la restriction s’applique (ville, province, pays, en ligne, etc).</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2258,40 +1774,25 @@
     <Content>Lisez les contrats avant de les signer</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>. Assurez-vous de comprendre ce que dit le contrat et qu’il s’accorde avec votre compr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>des termes sur lesquels vous vous êtes mis d’accord.</Content>
+    <Content>. Assurez-vous de comprendre ce que dit le contrat et qu’il s’accorde avec votre compréhension des termes sur lesquels vous vous êtes mis d’accord.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Tout contrat est n</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, mais il vous faut être en position de n</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>!</Content>
+    <Content>Tout contrat est négociable, mais il vous faut être en position de négocier!</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Le droit </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` la syndicalisation</Content>
+    <Content>Le droit à la syndicalisation</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Tout travailleur </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` le droit de rejoindre, de former, ou de participer dans</Content>
+    <Content>Tout travailleur à le droit de rejoindre, de former, ou de participer dans</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2309,13 +1810,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>aucun employeur ni association d’employeurs (par exemple La Guilde ou le ESA) n’a le droit de dominer, de faire obstacle, ou de participer </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` la formation ou aux activit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>d’un syndicat</Content>
+    <Content>aucun employeur ni association d’employeurs (par exemple La Guilde ou le ESA) n’a le droit de dominer, de faire obstacle, ou de participer à la formation ou aux activités d’un syndicat</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2327,67 +1822,37 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>les employeurs n’ont pas le droit de refuser de vous engager, ou d’utiliser toute autre forme de punition contre vous parce que vous avez rejoint ou particip</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` des activit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>syndicales</Content>
+    <Content>les employeurs n’ont pas le droit de refuser de vous engager, ou d’utiliser toute autre forme de punition contre vous parce que vous avez rejoint ou participé à des activités syndicales</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>si ils pr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vous renvoyer/punir pour d’autres raisons, et pas pour vos activit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> syndicales, ils doivent </Content>
+    <Content>si ils prétendent vous renvoyer/punir pour d’autres raisons, et pas pour vos activités syndicales, ils doivent </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>le prouver</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> (c’est </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` l’employeur que revient la responsabilit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de la preuve)</Content>
+    <Content> (c’est à l’employeur que revient la responsabilité de la preuve)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Restrictions sur les activit</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>syndicales</Content>
+    <Content>Restrictions sur les activités syndicales</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vous n’avez pas le droit de demander </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` d’autres employ</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>de rejoindre votre syndicat pendant les heures de travail</Content>
+    <Content>vous n’avez pas le droit de demander à d’autres employés de rejoindre votre syndicat pendant les heures de travail</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>vous ne pouvez pas organiser de rencontres syndicales sur votre lieu de travail </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` moins d’avoir la permission de votre employeur</Content>
+    <Content>vous ne pouvez pas organiser de rencontres syndicales sur votre lieu de travail à moins d’avoir la permission de votre employeur</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2399,10 +1864,7 @@
     <Content>30 jours</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> pour enregistrer un plainte au tribunal du travail si un employeur viole votre droit </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` la syndicalisation.</Content>
+    <Content> pour enregistrer un plainte au tribunal du travail si un employeur viole votre droit à la syndicalisation.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -2414,115 +1876,67 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Vous aurez **plus de pouvoir de n</Content>
+    <Content>Vous aurez </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>plus de pouvoir de négociation</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>* pour gagner des am</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>votre lieu de travail, en comparaison \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> essayer de changer les choses individuellement.</Content>
+    <Content> pour gagner des améliorations à votre lieu de travail, en comparaison à essayer de changer les choses individuellement.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>En tant que travailleu·se·r autonome, vous avez en fin de compte tr</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>s peu de droits et de protections sous la loi du travail du Qu\ebec. En s'unissant, nous pouvons nous  aider \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> nous prot</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>et faire pression pour des meilleurs lois du travail pour tou·te·s dans le long terme.</Content>
+    <Content>En tant que travailleu·se·r autonome, vous avez en fin de compte très peu de droits et de protections sous la loi du travail du Québec. En s’unissant, nous pouvons nous aider à nous protéger et faire pression pour des meilleurs lois du travail pour tou·te·s dans le long terme.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>En plus de la r</Content>
+    <Content>En plus de la réforme légale, les syndicaux aident à transformer et améliorer votre industrie au complet pour </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>chaque travailleu·se·r</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>l</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, les syndicaux aident </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>transformer et am\eliorer votre industrie au complet pour **chaque travailleu·se·r** en aidant \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>des standards et attentes.</Content>
+    <Content> en aidant à établir des standards et attentes.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les syndicats peuvent aider </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>` d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>les politiques des compagnies.</Content>
+    <Content>Les syndicats peuvent aider à démocratiser les politiques des compagnies.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Les syndicats peuvent aussi aider </Content>
+    <Content>Les syndicats peuvent aussi aider à </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>**mettre fin \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> la misclassification** (lorsque les employeurs traitent les travailleu·ses·rs qui devraient être salari</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>mettre fin à la misclassification</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>·e·s comme travailleu·ses·rs autonomes afin de leur nier leurs droits de base) et la perte d’avantages que cela am</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>`ne presque toujours.</Content>
+    <Content> (lorsque les employeurs traitent les travailleu·ses·rs qui devraient être salarié·e·s comme travailleu·ses·rs autonomes afin de leur nier leurs droits de base) et la perte d’avantages que cela amène presque toujours.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Beaucoup d’employeurs violent les droits de leurs travailleu·ses·rs en toute impunit</Content>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Beaucoup d’employeurs violent les droits de leurs travailleu·ses·rs en toute impunité parce que ces travailleu·ses·rs ne sont pas syndiqué·e·s et n’ont aucun moyen de se défendre. </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content> parce que ces travailleu·ses·rs ne sont pas syndiqu</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>·e·s et n’ont aucun moyen de se d</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>. </Content>
+    <Content>La syndicalisation est la meilleure manière de nous assurer que nos droits soivent respectés.</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>La syndicalisation est la meilleure mani</Content>
+    <Content> Si vous soupçonnez que vos droits sont bafoués, ou êtes curieu·se·x sur les prochaines étapes à suivre, </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>re de nous assurer que nos droits soivent respect\es.** Si vous soup\connez que vos droits sont bafou\es, ou êtes curieu·se·x sur les prochaines \etapes \a</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> suivre, **Game Workers Unite et S’ATTAQ sont l</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
-    <Content>pour vous aider** - n'h\esitez pas \a</Content>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Game Workers Unite et S’ATTAQ sont là pour vous aider</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> nous contacter!</Content>
+    <Content> - n’hésitez pas à nous contacter!</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 

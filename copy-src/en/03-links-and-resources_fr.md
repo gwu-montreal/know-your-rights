@@ -24,7 +24,7 @@ Aussi connue sous le nom de "Loi sur les normes du travail" (ou dans quelques do
 [http://legisquebec.gouv.qc.ca/fr/showdoc/cs/N-1.1](http://legisquebec.gouv.qc.ca/fr/showdoc/cs/N-1.1)
 
 
-### loi canadienne sur les droits de la personne
+### Loi canadienne sur les droits de la personne
 
 "Loi visant à compléter la législation canadienne en matière de discrimination."
 

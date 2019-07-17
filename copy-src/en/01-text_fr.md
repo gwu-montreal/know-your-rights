@@ -73,6 +73,7 @@ nature sexuelle:
 - qui rendent votre environnement de travail nocif
 
 Il peut se produire sur la base de:
+
 ::: {custom-style="Cols-2"}
 - La différence raciale
 - La couleur
@@ -157,7 +158,7 @@ Combien de temps de préavis?
 +---------------------------+----------------+
 | 5 - 10 ans                | 4 semaines     |
 +---------------------------+----------------+
-| + de 10 ans               | 8 semaines     |
+| plus de 10 ans            | 8 semaines     |
 +---------------------------+----------------+
 
 - Si vous n'avez pas reçu assez de temps de préavis, l'employeur doit vous payer
@@ -217,7 +218,7 @@ au client — par exemple, le jour avant une date d'échéance importante.
 +-----------------------+--------------------+
 | funéraille de         | - 2 jours payés    |
 | l'épou·se·x ou        | - 3 jours non payés|
-| famille proche       |                    |
+| famille proche        |                    |
 +-----------------------+--------------------+
 | votre marriage ou     | - 1 jour payé      |
 | union civile          |                    |
@@ -262,18 +263,18 @@ List complète des congés et absences, avec conditions et obligations:
 
 ## Vacances (Salarié·e·s)
 
-+--------------------+--------------------------+
-| Durée d'emploi     | Vacances et indemnité    |
-+====================+==========================+
-| 1 an               | - 1 jour/mois de service |
-|                    | - 4% du salaire gagné    |
-+--------------------+--------------------------+
-| 1 - 3 ans          | - 2 semaines             |
-|                    | - 4% du salaire gagné    |
-+--------------------+--------------------------+
-| 3 years or more    | - 3 semaines             |
-|                    | - 6% du salaire gagné    |
-+--------------------+--------------------------+
++-------------------+--------------------------+
+| Durée d'emploi    | Vacances et indemnité    |
++===================+==========================+
+| 1 an              | - 1 jour/mois de service |
+|                   | - 4% du salaire gagné    |
++-------------------+--------------------------+
+| 1 - 3 ans         | - 2 semaines             |
+|                   | - 4% du salaire gagné    |
++-------------------+--------------------------+
+| 3 years or more   | - 3 semaines             |
+|                   | - 6% du salaire gagné    |
++-------------------+--------------------------+
 
 - les indemnités (sommes d'argent additionnelles qui n'incluent pas le salaire) 
   sont calculées sur la base du salaire que vous avez gagné l'année précédente
@@ -337,7 +338,7 @@ création par un·e travailleu·se·r autonome **restent sa propriété**.
   intellectuelle ne vous empêchera pas de faire votre travail comme vous le faisez
   normalemenet.
 
-## accord de confidentialité, non-conccurence, etc.
+## Accord de confidentialité, non-conccurence, etc.
 ### 3 accords restrictifs courants dans les contrats:
 
 - **Non-emploi**: empêche un·e travailleu·se·r d'engager ou
@@ -406,7 +407,7 @@ employeur viole votre droit à la syndicalisation.
   travailleu·ses·rs autonomes afin de leur nier leurs droits de base) et la perte d'avantages
   que cela amène presque toujours.
 
-**Beaucoup d'employeurs violent les droits de leurs travailleu·ses·rs en toute impunité
+Beaucoup d'employeurs violent les droits de leurs travailleu·ses·rs en toute impunité
 parce que ces travailleu·ses·rs ne sont pas syndiqué·e·s et n'ont aucun moyen de se
 défendre. **La syndicalisation est la meilleure manière de nous assurer que nos droits
 soivent respectés.** Si vous soupçonnez que vos droits sont bafoués, ou êtes curieu·se·x
