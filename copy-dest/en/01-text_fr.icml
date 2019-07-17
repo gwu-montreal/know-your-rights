@@ -1792,13 +1792,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Tout travailleur à le droit de rejoindre, de former, ou de participer dans</Content>
-  </CharacterStyleRange>
-</ParagraphStyleRange>
-<Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>un syndicat de son choix.</Content>
+    <Content>Tout travailleur à le droit de rejoindre, de former, ou de participer dans un syndicat de son choix.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />

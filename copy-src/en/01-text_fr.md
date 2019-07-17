@@ -364,8 +364,7 @@ vous vous êtes mis d'accord.
 
 ## Le droit à la syndicalisation
 
-#### Tout travailleur à le droit de rejoindre, de former, ou de participer dans
-un syndicat de son choix.
+#### Tout travailleur à le droit de rejoindre, de former, ou de participer dans un syndicat de son choix.
 
 #### Restrictions sur les employeurs
 

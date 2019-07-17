@@ -7,7 +7,7 @@ travail**. Cette commission en était auparavant deux: la  **CNT** (Commission
 des normes du travail) et la **CSST** (Commission de la santé et de la
 sécurité du travail), vous trouverez donc peut-être des références à ces noms.
 
-[https://www.cnt.gouv.qc.ca/en/accueil/index.html](https://www.cnt.gouv.qc.ca/en/accueil/index.html)
+[https://www.cnt.gouv.qc.ca/accueil/index.html](https://www.cnt.gouv.qc.ca/accueil/index.html)
 
 
 ### Educaloi

@@ -98,7 +98,7 @@
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>https://www.cnt.gouv.qc.ca/en/accueil/index.html</Content>
+      <Content>https://www.cnt.gouv.qc.ca/accueil/index.html</Content>
     </CharacterStyleRange>
   </HyperlinkTextSource>
 </ParagraphStyleRange>
@@ -224,11 +224,11 @@
       <Destination type="object">HyperlinkURLDestination/https%3a//www.educaloi.qc.ca</Destination>
     </Properties>
   </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.cnt.gouv.qc.ca/en/accueil/index.html" Name="link" DestinationURL="https://www.cnt.gouv.qc.ca/en/accueil/index.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-1" Name="https://www.cnt.gouv.qc.ca/en/accueil/index.html" Source="htss-1" Visible="true" DestinationUniqueKey="1">
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.cnt.gouv.qc.ca/accueil/index.html" Name="link" DestinationURL="https://www.cnt.gouv.qc.ca/accueil/index.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-1" Name="https://www.cnt.gouv.qc.ca/accueil/index.html" Source="htss-1" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/https%3a//www.cnt.gouv.qc.ca/en/accueil/index.html</Destination>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.cnt.gouv.qc.ca/accueil/index.html</Destination>
     </Properties>
   </Hyperlink>
 </Document>
