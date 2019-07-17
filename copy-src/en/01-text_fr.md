@@ -4,7 +4,7 @@
 
 Votre statut est déterminé par les six critères qui suivent:
 
-1. Subordination à un employeur. Vous êtes probablement salarié si votre employeur:
+1. Subordination à un employeur. Vous êtes probablement salarié·e si votre employeur:
     * Détermine les conditions de votre recrutement et de votre licenciement
     * Décide de votre horaire et du lieu où vous travaillez
     * Définit vos tâches et méthodes de travail
@@ -33,9 +33,9 @@ Notez que différentes entités (l'ARC, la CNESST, les cours) peuvent arriver à
 
 ### Pour les salarié·e·s:
 
-Le paiement en heures supplémentaires vouse est dû si vous travaillez plus que vos heures régulières de semaine.
+Le paiement en heures supplémentaires vous est dû si vous travaillez plus que vos heures régulières de semaine.
 
-- Vous avez droit à un **50% additionel** de votre paie régulière par heure.
+- Vous avez droit à un **50% additionel** en plus de votre paie régulière par heure.
 - À votre requête, ceci peut être remplacé **un congé payé de durée équivalente plus 50%**.
 
 Vous avez le droit de refuser le travail si:
@@ -62,7 +62,7 @@ Les travailleu·ses·rs autonomes devraient inclure un **tarif "rush"** dans leu
 
 Le comportement **humiliant**, **offensif**, ou **abusif**.
 
-Dépasse ce qu'une "personne raisonnable" peut considèrers approprié dans le contexte de son 
+Dépasse ce qu'une "personne raisonnable" peut considérer approprié dans le contexte de son 
 travail, et est **de nature répétitive**.
 
 Le harcèlement psychologique inclut les commentaires verbaux, les actes et gestes de
@@ -91,7 +91,7 @@ Il peut se produire sur la base de:
 :::
 
 ::: {custom-style="Para-Bold"}
-Vous avez jusqu'à **2 ans** pour enregistrer une plainte.
+Vous avez jusqu'à **2 ans** pour déposer une plainte.
 :::
 
 Essayez de **documenter** tous les incidents lorsque possible:
@@ -140,7 +140,7 @@ Ceci s'applique aux:
 - divers autres standards (par exemple, l'uniforme)
 
 
-## Résiliation
+## Cessation d'emploi
 
 ### Pour les salarié·e·s:
 
@@ -257,7 +257,7 @@ Certaines conditions s'appliquent:
 - si vous êtes absent·e de manière répétitive votre employeur peut demander un document
   qui atteste des raisons de votre absence (par exemple, une note d'un docteur)
 
-List complète des congés et absences, avec conditions et obligations:
+Liste complète des congés et absences, avec conditions et obligations:
 **https://bit.ly/2XGQc3M**
 
 
@@ -318,7 +318,7 @@ faire discrimination, ou punir
 - parce que vous avez atteint l'âge de la retraite, ou pour éviter de remplir
   les obligations de la loi sur les régimes volontaires d'épargne-retraite
 
-Si vos droits se trouvent ainsi violés, vous avez jusqu'à **45 jours** pour
+Si vos droits se trouvent ainsi bafoués, vous avez jusqu'à **45 jours** pour
 enregistrer une plaine auprès de la commission des normes du travail.
 
 
@@ -388,14 +388,14 @@ vous vous êtes mis d'accord.
   d'avoir la permission de votre employeur
 
 Vous avez **30 jours** pour enregistrer un plainte au tribunal du travail si un 
-employeur viole votre droit à la syndicalisation.
+employeur enfreint à votre droit à la syndicalisation.
 
 ### Quelques avantages de l'action collective:
 
 - Vous aurez **plus de pouvoir de négociation** pour gagner des améliorations
   à votre lieu de travail, en comparaison à essayer de changer les choses individuellement.
 - En tant que travailleu·se·r autonome, vous avez en fin de compte très peu de droits
-  et de protections sous la loi du travail du Québec. En s'unissant, nous pouvons nous 
+  et de protections sous la loi du travail du Québec. En nous unissant, nous pouvons nous 
   aider à nous protéger et faire pression pour des meilleurs lois du travail pour tou·te·s 
   dans le long terme.
 - En plus de la réforme légale, les syndicaux aident à transformer et améliorer votre
@@ -409,6 +409,6 @@ employeur viole votre droit à la syndicalisation.
 Beaucoup d'employeurs violent les droits de leurs travailleu·ses·rs en toute impunité
 parce que ces travailleu·ses·rs ne sont pas syndiqué·e·s et n'ont aucun moyen de se
 défendre. **La syndicalisation est la meilleure manière de nous assurer que nos droits
-soivent respectés.** Si vous soupçonnez que vos droits sont bafoués, ou êtes curieu·se·x
+soient respectés.** Si vous soupçonnez que vos droits sont bafoués, ou êtes curieu·se·x
 sur les prochaines étapes à suivre, **Game Workers Unite et S'ATTAQ sont là pour vous aider**
 - n'hésitez pas à nous contacter!

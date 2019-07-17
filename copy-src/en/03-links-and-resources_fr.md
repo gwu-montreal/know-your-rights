@@ -12,7 +12,7 @@ sécurité du travail), vous trouverez donc peut-être des références à ces n
 
 ### Educaloi
 
-Introduction accessible à une variété de sujets légaux.
+Introduction accessible à une variété de sujets juridiques.
 
 [https://www.educaloi.qc.ca](https://www.educaloi.qc.ca)
 
@@ -33,6 +33,6 @@ Aussi connue sous le nom de "Loi sur les normes du travail" (ou dans quelques do
 
 ### The Consequences of Fixed-Term Employment Contracts
 
-Discussion brève de quelques enjeux légaux et conséquences autours des contrats d'emploiment à durée fixe au Québec.
+Discussion brève de quelques enjeux juridiques et conséquences autours des contrats d'emploiment à durée fixe au Québec.
 
 [http://blg.com/en/News-And-Publications/Publication_5112](http://blg.com/en/News-And-Publications/Publication_5112)

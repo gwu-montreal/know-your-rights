@@ -218,7 +218,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Subordination à un employeur. Vous êtes probablement salarié si votre employeur:</Content>
+    <Content>Subordination à un employeur. Vous êtes probablement salarié·e si votre employeur:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -368,7 +368,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Le paiement en heures supplémentaires vouse est dû si vous travaillez plus que vos heures régulières de semaine.</Content>
+    <Content>Le paiement en heures supplémentaires vous est dû si vous travaillez plus que vos heures régulières de semaine.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -380,7 +380,7 @@
     <Content>50% additionel</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> de votre paie régulière par heure.</Content>
+    <Content> en plus de votre paie régulière par heure.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -533,7 +533,7 @@
     <Content>“personne raisonnable”</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> peut considèrers approprié dans le contexte de son travail, et est </Content>
+    <Content> peut considérer approprié dans le contexte de son travail, et est </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>de nature répétitive</Content>
@@ -659,7 +659,7 @@
     <Content>2 ans</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> pour enregistrer une plainte.</Content>
+    <Content> pour déposer une plainte.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -821,7 +821,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Résiliation</Content>
+    <Content>Cessation d’emploi</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1378,7 +1378,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>List complète des congés et absences, avec conditions et obligations: </Content>
+    <Content>Liste complète des congés et absences, avec conditions et obligations: </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>https://bit.ly/2XGQc3M</Content>
@@ -1657,7 +1657,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si vos droits se trouvent ainsi violés, vous avez jusqu’à </Content>
+    <Content>Si vos droits se trouvent ainsi bafoués, vous avez jusqu’à </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
     <Content>45 jours</Content>
@@ -1858,7 +1858,7 @@
     <Content>30 jours</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> pour enregistrer un plainte au tribunal du travail si un employeur viole votre droit à la syndicalisation.</Content>
+    <Content> pour enregistrer un plainte au tribunal du travail si un employeur enfreint à votre droit à la syndicalisation.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1882,7 +1882,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>En tant que travailleu·se·r autonome, vous avez en fin de compte très peu de droits et de protections sous la loi du travail du Québec. En s’unissant, nous pouvons nous aider à nous protéger et faire pression pour des meilleurs lois du travail pour tou·te·s dans le long terme.</Content>
+    <Content>En tant que travailleu·se·r autonome, vous avez en fin de compte très peu de droits et de protections sous la loi du travail du Québec. En nous unissant, nous pouvons nous aider à nous protéger et faire pression pour des meilleurs lois du travail pour tou·te·s dans le long terme.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1921,7 +1921,7 @@
     <Content>Beaucoup d’employeurs violent les droits de leurs travailleu·ses·rs en toute impunité parce que ces travailleu·ses·rs ne sont pas syndiqué·e·s et n’ont aucun moyen de se défendre. </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>La syndicalisation est la meilleure manière de nous assurer que nos droits soivent respectés.</Content>
+    <Content>La syndicalisation est la meilleure manière de nous assurer que nos droits soient respectés.</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content> Si vous soupçonnez que vos droits sont bafoués, ou êtes curieu·se·x sur les prochaines étapes à suivre, </Content>

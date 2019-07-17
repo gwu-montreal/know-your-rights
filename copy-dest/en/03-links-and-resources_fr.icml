@@ -111,7 +111,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Introduction accessible à une variété de sujets légaux.</Content>
+    <Content>Introduction accessible à une variété de sujets juridiques.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -183,7 +183,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Discussion brève de quelques enjeux légaux et conséquences autours des contrats d’emploiment à durée fixe au Québec.</Content>
+    <Content>Discussion brève de quelques enjeux juridiques et conséquences autours des contrats d’emploiment à durée fixe au Québec.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
