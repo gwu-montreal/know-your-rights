@@ -98,6 +98,14 @@ Can occur on the basis of:
 You have up to **2 years** to file a complaint.
 :::
 
+### Where to file a complaint?
+
+- **Non-unionized employees:** Commission des normes, de l'équité, de la santé et de la sécurité du travail (CNESST)
+- **Unionized employees:** their union
+- **Freelancers:** Quebec Human Rights Commission (CPDPJ)
+
+
+
 Try to **document** incidents whenever possible:
 
 - **Keep a copy** of emails, texts, screenshots, etc. on a personal (not work!)
@@ -182,6 +190,26 @@ How much notice?
 
 Note that these protections do **not** apply to employees who have worked for
 **less than 3 months.**
+
+#### Mass layoffs
+
+A mass layoff or collective dismissal occurs when an employer terminates the employment of **10 employees or more** of the same establishment over a period of **2 months.**
+
+In this case the employer must provide notice or equivalent pay based on the number of employees who have been let go.
+
++---------------------------+----------------+
+| Number of employees       | Notice Period  |
++===========================+================+
+| 10 - 99                   | 8 weeks        |
++---------------------------+----------------+
+| 100 - 299                 | 12 weeks       |
++---------------------------+----------------+
+| 300 and over              | 16 weeks       |
++---------------------------+----------------+
+
+- If the company goes bankrupt, employees can apply to the federal Wage Earner Protection Program (WEPP) to reclaim wages owed to them, including vacation pay and severance pay.
+- As of January 1, 2019 the maximum amount you can apply for is $7,148.05.
+- Employees can also apply to the CNESST for unpaid wages (but not the amount owed for notice of termination).
 
 #### Exceptions (when no notice is required):
 

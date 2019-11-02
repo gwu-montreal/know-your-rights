@@ -32,9 +32,24 @@ documents even just as the Act).
 [https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html](https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html)
 
 
+### CDPDJ 
+
+Commission des droits de la personne et des droits de la jeunesse. Discusses different forms of harassment and how to defend your rights.
+
+[http://www.cdpdj.qc.ca/en/droits-de-la-personne/pratiques/Pages/harcelement.aspx](http://www.cdpdj.qc.ca/en/droits-de-la-personne/pratiques/Pages/harcelement.aspx)
+
+
 ### The Consequences of Fixed-Term Employment Contracts
 
 A brief discussing some legal concerns and consequences around fixed-term
 contracts in Québec.
 
 [http://blg.com/en/News-And-Publications/Publication_5112](http://blg.com/en/News-And-Publications/Publication_5112)
+
+
+### Wage Earner Protection Program (WEPP) Overview
+
+Explains who is covered by the program, how much you can receive, and how to apply.
+
+[https://www.canada.ca/en/employment-social-development/services/wage-earner-protection/employee.html](https://www.canada.ca/en/employment-social-development/services/wage-earner-protection/employee.html)
+

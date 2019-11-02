@@ -171,6 +171,26 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>CDPDJ</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Commission des droits de la personne et des droits de la jeunesse. Discusses different forms of harassment and how to defend your rights.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.cdpdj.qc.ca/en/droits-de-la-personne/pratiques/Pages/harcelement.aspx</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>The Consequences of Fixed-Term Employment Contracts</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
@@ -182,19 +202,53 @@
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-6" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://blg.com/en/News-And-Publications/Publication_5112</Content>
     </CharacterStyleRange>
   </HyperlinkTextSource>
 </ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Wage Earner Protection Program (WEPP) Overview</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Explains who is covered by the program, how much you can receive, and how to apply.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <HyperlinkTextSource Self="htss-7" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.canada.ca/en/employment-social-development/services/wage-earner-protection/employee.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+</ParagraphStyleRange>
 
   </Story>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.canada.ca/en/employment-social-development/services/wage-earner-protection/employee.html" Name="link" DestinationURL="https://www.canada.ca/en/employment-social-development/services/wage-earner-protection/employee.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-7" Name="https://www.canada.ca/en/employment-social-development/services/wage-earner-protection/employee.html" Source="htss-7" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.canada.ca/en/employment-social-development/services/wage-earner-protection/employee.html</Destination>
+    </Properties>
+  </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//blg.com/en/News-And-Publications/Publication_5112" Name="link" DestinationURL="http://blg.com/en/News-And-Publications/Publication_5112" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-5" Name="http://blg.com/en/News-And-Publications/Publication_5112" Source="htss-5" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-6" Name="http://blg.com/en/News-And-Publications/Publication_5112" Source="htss-6" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http%3a//blg.com/en/News-And-Publications/Publication_5112</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.cdpdj.qc.ca/en/droits-de-la-personne/pratiques/Pages/harcelement.aspx" Name="link" DestinationURL="http://www.cdpdj.qc.ca/en/droits-de-la-personne/pratiques/Pages/harcelement.aspx" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-5" Name="http://www.cdpdj.qc.ca/en/droits-de-la-personne/pratiques/Pages/harcelement.aspx" Source="htss-5" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http%3a//www.cdpdj.qc.ca/en/droits-de-la-personne/pratiques/Pages/harcelement.aspx</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" Name="link" DestinationURL="https://laws-lois.justice.gc.ca/eng/acts/h-6/fulltext.html" DestinationUniqueKey="1" />
