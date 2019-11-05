@@ -250,25 +250,25 @@
     <Content>“loyal·e”</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> envers leur employeur. Ceci veut dire que selon la loi, en tant qu’employé·e vous êtes obligé·e de:</Content>
+    <Content> envers son employeur. Ceci veut dire que selon la loi, en tant qu’employé·e vous êtes obligé·e:</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>être honète avec votre employeur.</Content>
+    <Content>d’être honète avec votre employeur.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>utiliser votre bon jugement dans votre rôle d’employé·e.</Content>
+    <Content>d’utiliser votre bon jugement dans votre rôle d’employé·e.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>mettre les intérêts de votre employeur au-dessus des votres (avec exceptions; voir </Content>
+    <Content>de mettre les intérêts de votre employeur au-dessus des votres (avec exceptions; voir </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>“insubordination”</Content>
@@ -280,7 +280,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>protéger l’information confidentielle.</Content>
+    <Content>de protéger l’information confidentielle.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -304,7 +304,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Une personne qui travaille pour un employeur et qui a droit à un salaire. Si vous avez un contrat qui implique d’effectuer un travail en échange d’argent, vous êtes probablement considéré·e un·e salarié·e. Ceci incult, par exemple, un contrat où vous recevez une somme nette de laquelle vous déduisez vos dépenses pour les matières premières ou l’équipement et gardez le montant restant.</Content>
+    <Content>Une personne qui travaille pour un employeur et qui a droit à un salaire. Si vous avez un contrat qui implique d’effectuer un travail en échange d’argent, vous êtes probablement considéré·e comme un·e salarié·e. Ceci inclut, par exemple, un contrat où vous recevez une somme nette de laquelle vous déduisez vos dépenses pour les matières premières ou l’équipement et gardez le montant restant.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -418,13 +418,13 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Indemnity</Content>
+    <Content>Indemnité</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Somme d’argent versée au/à la salarié·e, soit pour réparer un préjudice, soit pour compenser un congé ou certains inconvénients.</Content>
+    <Content>Somme d’argent versée à un·e salarié·e, soit pour réparer un préjudice, soit pour compenser un congé ou certains inconvénients.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -478,7 +478,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Avis écrit que l’employeur est tenu de remettre au/à la salarié·e avant de mettre fin à son contrat de travail ou de le/la mettre à pied, en respectant les conditions et les délais fixés soit par la loi, soit par un contrat de travail, une convention collective, ou un décret.</Content>
+    <Content>Avis écrit que l’employeur est tenu de remettre à un·e salarié·e avant de mettre fin à son contrat de travail ou de le·la mettre à pied, en respectant les conditions et les délais fixés soit par la loi, soit par un contrat de travail, une convention collective, ou un décret.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -706,7 +706,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Sous la loi du Québec, les personnes qui sont liées par un mariage ou une union civile et qui cohabitent; ou de sexe différent ou de même sexe, qui vivent maritalement et sont les père et mère d’un même enfant; ou de sexe différent ou de même sexe, qui vivent maritalement depuis au moins un an.</Content>
+    <Content>Sous la loi du Québec, les personnes qui sont liées par un mariage ou une union civile et qui cohabitent; ou de sexe différent ou de même sexe, qui vivent maritalement et sont parents d’un même enfant; ou de sexe différent ou de même sexe, qui vivent maritalement depuis au moins un an.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
