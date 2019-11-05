@@ -24,8 +24,8 @@ Votre statut est déterminé par les six critères qui suivent:
     * Les salarié·e·s sont généralement engagé·e·s pour une période de temps
 6. L'accord entre vous et votre fournisseur d'emploi
     * Différents aspects de votre contrat peuvent affecter votre classification
-    * Votre contrat se réfère-t-il à vous comme salarié·e ou comme travailleu·se·r autonome? (Note: ceci ne détermine pas votre statut en soi)
-    * Si vous recevez une prime de licenciement, ou si vous êtes éligible aux avantages sociaux de votre employeur, vous avez également plus de chance d'être considéré comme salarié·e
+    * Votre contrat vous mentionne-t-il en tant que salarié·e ou travailleu·se·r autonome? (Note: ceci ne détermine pas votre statut en soi)
+    * Si vous recevez une prime de licenciement, ou si vous êtes éligible aux avantages sociaux de votre employeur, vous avez également plus de chance d'être considéré·e comme salarié·e
 
 Notez que différentes entités (l'ARC, la CNESST, les cours) peuvent arriver à des conclusions différentes lorsqu'elles déterminent si un·e travailleu·se·r est salarié·e ou travailleu·se·r autonome
 
@@ -45,8 +45,8 @@ Vous avez le droit de refuser le travail si:
 - Vous avez travaillé plus de **12 heures** dans une **période de 24h** sur un horaire
   variable ou discontinu.
 - Vous avez travaillé plus de **50 heures** en une semaine.
-- Vous n'avez pas été prévenu·e au moins **5 jours** à l'avance, **à moins** que la 
-  nature du travail ne requiert que vous restiez disponible (par exemple, les services d'urgence).
+- Vous n'avez pas été prévenu·e au moins **5 jours** à l'avance, **sauf si** la 
+  nature du travail requiert que vous restiez disponible (par exemple, les services d'urgence).
 
 ::: {custom-style="Para-Bold"}
 Votre employeur n'a **pas le droit** de vous renvoyer, de retirer vos avantages sociaux, de réduire
@@ -94,10 +94,18 @@ Il peut se produire sur la base de:
 Vous avez jusqu'à **2 ans** pour déposer une plainte.
 :::
 
+### Où déposer une plainte ?
+
+- **Pour les employé·e·s non syndiqué·e·s:** auprès de la commission des normes, de l'équité, de la santé et de la sécurité du travail (CNESST)
+- **Pour les employé·e·s syndiqué·e·s:** auprès de leur syndicat
+- **Pour les travailleu·ses·rs autonomes:** auprès de la commission des droits de la personne et des droits de la jeunesse (CDPDJ)
+
+
+
 Essayez de **documenter** tous les incidents lorsque possible:
 
-- **Gardez une copie** des courriels, textes, captures d'écran, etc. Sur un appareil personnel (pas un appareil de travail!).
-- **Gardez un journal** avec les dates, les heures, les lieux, les noms, et une description des événements et de comment ils vous ont fait vous sentir.
+- **Gardez une copie** des courriels, textes, captures d'écran, etc. sur un appareil personnel (pas un appareil de travail!).
+- **Gardez un journal** avec les dates, les heures, les lieux, les noms, et une description des événements et de comment vous les avez ressentis.
 
 Si votre cas est réussi, le tribunal administratif du travail peut ordonner à l'employeur de:
 - vous ré-engager si vous avez été renvoyé·e
@@ -177,6 +185,26 @@ Combien de temps de préavis?
 Notez que ces protections **ne s'appliquent pas** aux employés qui ont travaillé
 pour **moins de 3 mois**.
 
+#### Licenciements collectifs
+
+Un licenciement collectif advient lorsqu'un employeur met fin à l'emploi de **10 employé·e·s ou plus** du même établissement sur une période de **2 mois.** 
+
+Dans cette situation, l'employeur doit donner un préavis ou une paie équivalente selon le nombre d'employé·e·s licencié·e·s.
+
++---------------------------+----------------+
+| Nombre d'employé·e·s      | Préavis        |
++===========================+================+
+| 10 - 99                   | 8 semaines     |
++---------------------------+----------------+
+| 100 - 299                 | 12 semaines    |
++---------------------------+----------------+
+| 300 ou plus               | 16 semaines    |
++---------------------------+----------------+
+
+Si la compagnie fait faillite, les employé·e·s peuvent présenter une demande au programme fédéral de protection des salariés (PPS / WEPP) pour se faire rémunérer leurs salaires impayés, y compris congés payés et indemnités de départ.
+- Depuis le 1er Janvier 2019, le montant maximal de cette rémunération est de 7,148.05$.
+- Les employé·e·s peuvent également présenter une demande à la CNESST pour les salaires impayés (mais pas pour la paie dûe en équivalence de préavis).
+
 #### Exceptions (quand un préavis n'est pas requis):
 
 - vous avez été engagé·e pour une tâche spécifique qui a été accomplie.
@@ -188,7 +216,7 @@ pour **moins de 3 mois**.
 **Oui**, et ce même sans le consentement du client. Mais vous avez besoin d'une raison
 sérieuse:
 
-- le client interfère répétitivement avec le travail
+- le client interfère de façon répétitive avec le travail
 - le client refuse de coopérer
 - le client est abusif, désagréable, ou impoli
 - le client essaie de changer les termes de votre contrat
@@ -218,7 +246,7 @@ au client — par exemple, le jour avant une date d'échéance importante.
 +-----------------------+--------------------+
 | funéraille de         | - 2 jours payés    |
 | l'épou·se·x ou        | - 3 jours non payés|
-| famille proche        |                    |
+| famille proche**      |                    |
 +-----------------------+--------------------+
 | votre marriage ou     | - 1 jour payé      |
 | union civile          |                    |
@@ -309,9 +337,9 @@ Si un jour férié tombe sur un jour sans travail **un autre jour sera substitu�
 Votre employeur ou superviseur **ne peut pas** vous renvoyer, suspendre, transférer,
 faire discrimination, ou punir
 
-- pour faire l'exercice de quelconque des droits couverts par la loi du travail 
-- pour enregistrer une plainte avec la commissions des normes du travail, ou pour
-  fournir des preuves à une investigation
+- pour avoir fait l'exercice de quelconque des droits couverts par la loi du travail 
+- pour avoir enregistré une plainte avec la commissions des normes du travail, ou pour
+  avoir fourni des preuves à une investigation
 - pour être eceint·e ou avoir charge d'un enfrant
 - parce que vous avez refusé de faire du travail supplémentaire afin de vous
   occuper de votre enfant ou famille proche (si vous êtes aidant·e principal·e)
@@ -396,8 +424,8 @@ employeur enfreint à votre droit à la syndicalisation.
   à votre lieu de travail, en comparaison à essayer de changer les choses individuellement.
 - En tant que travailleu·se·r autonome, vous avez en fin de compte très peu de droits
   et de protections sous la loi du travail du Québec. En nous unissant, nous pouvons nous 
-  aider à nous protéger et faire pression pour des meilleurs lois du travail pour tou·te·s 
-  dans le long terme.
+  aider à nous protéger et faire pression pour des meilleures lois du travail pour tou·te·s 
+  sur le long terme.
 - En plus de la réforme légale, les syndicaux aident à transformer et améliorer votre
   industrie au complet pour **chaque travailleu·se·r** en aidant à établir des standards et attentes.
 - Les syndicats peuvent aider à démocratiser les politiques des compagnies.

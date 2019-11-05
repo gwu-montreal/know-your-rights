@@ -338,13 +338,13 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Votre contrat se réfère-t-il à vous comme salarié·e ou comme travailleu·se·r autonome? (Note: ceci ne détermine pas votre statut en soi)</Content>
+    <Content>Votre contrat vous mentionne-t-il en tant que salarié·e ou travailleu·se·r autonome? (Note: ceci ne détermine pas votre statut en soi)</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si vous recevez une prime de licenciement, ou si vous êtes éligible aux avantages sociaux de votre employeur, vous avez également plus de chance d’être considéré comme salarié·e</Content>
+    <Content>Si vous recevez une prime de licenciement, ou si vous êtes éligible aux avantages sociaux de votre employeur, vous avez également plus de chance d’être considéré·e comme salarié·e</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -455,10 +455,10 @@
     <Content> à l’avance, </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>à moins</Content>
+    <Content>sauf si</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> que la nature du travail ne requiert que vous restiez disponible (par exemple, les services d’urgence).</Content>
+    <Content> la nature du travail requiert que vous restiez disponible (par exemple, les services d’urgence).</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -663,6 +663,39 @@
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Où déposer une plainte ?</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Pour les employé·e·s non syndiqué·e·s:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> auprès de la commission des normes, de l’équité, de la santé et de la sécurité du travail (CNESST)</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Pour les employé·e·s syndiqué·e·s:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> auprès de leur syndicat</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Pour les travailleu·ses·rs autonomes:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> auprès de la commission des droits de la personne et des droits de la jeunesse (CDPDJ)</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Essayez de </Content>
@@ -680,7 +713,7 @@
     <Content>Gardez une copie</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> des courriels, textes, captures d’écran, etc. Sur un appareil personnel (pas un appareil de travail!).</Content>
+    <Content> des courriels, textes, captures d’écran, etc. sur un appareil personnel (pas un appareil de travail!).</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -689,7 +722,7 @@
     <Content>Gardez un journal</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> avec les dates, les heures, les lieux, les noms, et une description des événements et de comment ils vous ont fait vous sentir.</Content>
+    <Content> avec les dates, les heures, les lieux, les noms, et une description des événements et de comment vous les avez ressentis.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1024,6 +1057,102 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Licenciements collectifs</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Un licenciement collectif advient lorsqu’un employeur met fin à l’emploi de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>10 employé·e·s ou plus</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> du même établissement sur une période de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>2 mois.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dans cette situation, l’employeur doit donner un préavis ou une paie équivalente selon le nombre d’employé·e·s licencié·e·s.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<Table AppliedTableStyle="TableStyle/Table" HeaderRowCount="1" BodyRowCount="3" ColumnCount="2">
+  <Column Name="0" SingleColumnWidth="194.44444444444446" />
+  <Column Name="1" SingleColumnWidth="118.05555555555556" />
+  <Cell Name="0:0" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>Nombre d’employé·e·s</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+  <Cell Name="1:0" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>Préavis</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+  <Cell Name="0:1" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>10 - 99</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+  <Cell Name="1:1" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>8 semaines</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+  <Cell Name="0:2" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>100 - 299</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+  <Cell Name="1:2" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>12 semaines</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+  <Cell Name="0:3" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>300 ou plus</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+  <Cell Name="1:3" AppliedCellStyle="CellStyle/Cell">
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
+      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+        <Content>16 semaines</Content>
+      </CharacterStyleRange>
+    </ParagraphStyleRange>
+  </Cell>
+</Table>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TableCaption">
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Si la compagnie fait faillite, les employé·e·s peuvent présenter une demande au programme fédéral de protection des salariés (PPS / WEPP) pour se faire rémunérer leurs salaires impayés, y compris congés payés et indemnités de départ. - Depuis le 1er Janvier 2019, le montant maximal de cette rémunération est de 7,148.05$. - Les employé·e·s peuvent également présenter une demande à la CNESST pour les salaires impayés (mais pas pour la paie dûe en équivalence de préavis).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Exceptions (quand un préavis n’est pas requis):</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
@@ -1063,7 +1192,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>le client interfère répétitivement avec le travail</Content>
+    <Content>le client interfère de façon répétitive avec le travail</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1199,7 +1328,7 @@
   <Cell Name="0:3" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>funéraille de l’épou·se·x ou famille proche</Content>
+        <Content>funéraille de l’épou·se·x ou famille proche**</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1627,13 +1756,13 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pour faire l’exercice de quelconque des droits couverts par la loi du travail</Content>
+    <Content>pour avoir fait l’exercice de quelconque des droits couverts par la loi du travail</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>pour enregistrer une plainte avec la commissions des normes du travail, ou pour fournir des preuves à une investigation</Content>
+    <Content>pour avoir enregistré une plainte avec la commissions des normes du travail, ou pour avoir fourni des preuves à une investigation</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1882,7 +2011,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>En tant que travailleu·se·r autonome, vous avez en fin de compte très peu de droits et de protections sous la loi du travail du Québec. En nous unissant, nous pouvons nous aider à nous protéger et faire pression pour des meilleurs lois du travail pour tou·te·s dans le long terme.</Content>
+    <Content>En tant que travailleu·se·r autonome, vous avez en fin de compte très peu de droits et de protections sous la loi du travail du Québec. En nous unissant, nous pouvons nous aider à nous protéger et faire pression pour des meilleures lois du travail pour tou·te·s sur le long terme.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />

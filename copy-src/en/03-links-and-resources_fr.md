@@ -31,8 +31,22 @@ Aussi connue sous le nom de "Loi sur les normes du travail" (ou dans quelques do
 [https://laws-lois.justice.gc.ca/fra/lois/h-6/textecomplet.html](https://laws-lois.justice.gc.ca/fra/lois/h-6/textecomplet.html)
 
 
+### CDPDJ 
+
+Commission des droits de la personne et des droits de la jeunesse. Publie des informations sur diverses formes de harcèlement ainsi que comment défendre ses droits.
+
+[http://www.cdpdj.qc.ca/fr/droits-de-la-personne/pratiques/Pages/harcelement.aspx](http://www.cdpdj.qc.ca/fr/droits-de-la-personne/pratiques/Pages/harcelement.aspx)
+
+
 ### The Consequences of Fixed-Term Employment Contracts
 
 Discussion brève de quelques enjeux juridiques et conséquences autours des contrats d'emploiment à durée fixe au Québec.
 
 [http://blg.com/en/News-And-Publications/Publication_5112](http://blg.com/en/News-And-Publications/Publication_5112)
+
+
+### Vue d'ensemble du programme de protection des salariés (PPS)
+
+Explique qui est couvert par le programme, quelle compensation attendre, et comment déposer une demande. 
+
+[https://www.canada.ca/fr/emploi-developpement-social/services/protection-salaries/employe.html](https://www.canada.ca/fr/emploi-developpement-social/services/protection-salaries/employe.html)
