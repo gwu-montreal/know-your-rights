@@ -94,9 +94,17 @@ Il peut se produire sur la base de:
 Vous avez jusqu'à **2 ans** pour déposer une plainte.
 :::
 
+### Où déposer une plainte ?
+
+- **Pour les employé·e·s non syndiqué·e·s:** auprès de la commission des normes, de l'équité, de la santé et de la sécurité du travail (CNESST)
+- **Pour les employé·e·s syndiqué·e·s:** auprès de leur syndicat
+- **Pour les travailleu·ses·rs autonomes:** auprès de la commission des droits de la personne et des droits de la jeunesse (CPDPJ)
+
+
+
 Essayez de **documenter** tous les incidents lorsque possible:
 
-- **Gardez une copie** des courriels, textes, captures d'écran, etc. Sur un appareil personnel (pas un appareil de travail!).
+- **Gardez une copie** des courriels, textes, captures d'écran, etc. sur un appareil personnel (pas un appareil de travail!).
 - **Gardez un journal** avec les dates, les heures, les lieux, les noms, et une description des événements et de comment ils vous ont fait vous sentir.
 
 Si votre cas est réussi, le tribunal administratif du travail peut ordonner à l'employeur de:
@@ -176,6 +184,26 @@ Combien de temps de préavis?
 
 Notez que ces protections **ne s'appliquent pas** aux employés qui ont travaillé
 pour **moins de 3 mois**.
+
+#### Licenciements collectifs
+
+Un licenciement collectif advient lorsqu'un employeur met fin à l'emploi de **10 employé·e·s ou plus**  du même établissement sur une période de **2 mois.** 
+
+Dans cette situation, l'employeur doit donner un préavis ou une paie équivalente selon le nombre d'employé·e·s licencié·e·s.
+
++---------------------------+----------------+
+| Nombre d'employé·e·s      | Préavis        |
++===========================+================+
+| 10 - 99                   | 8 semaines     |
++---------------------------+----------------+
+| 100 - 299                 | 12 semaines    |
++---------------------------+----------------+
+| 300 ou plus               | 16 semaines    |
++---------------------------+----------------+
+
+Si la compagnie fait faillite, les employé·e·s peuvent présenter une demande au programme fédéral de protection des salariés (PPS / WEPP) pour se faire rémunérer leurs salaires impayés, y compris congés payés et indemnités de départ.
+- Depuis le 1er Janvier 2019, le montant maximal de cette rémunération est de 7,148.05$.
+- Les employé·e·s peuvent également présenter une demande à la CNESST pour les salaires impayés (mais pas pour la paie due en équivalence de préavis).
 
 #### Exceptions (quand un préavis n'est pas requis):
 
