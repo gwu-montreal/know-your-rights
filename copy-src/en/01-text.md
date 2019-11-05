@@ -102,7 +102,7 @@ You have up to **2 years** to file a complaint.
 
 - **Non-unionized employees:** Commission des normes, de l'équité, de la santé et de la sécurité du travail (CNESST)
 - **Unionized employees:** their union
-- **Freelancers:** Quebec Human Rights Commission (CPDPJ)
+- **Freelancers:** Quebec Human Rights Commission (CDPDJ)
 
 
 

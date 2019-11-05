@@ -48,12 +48,12 @@ Le licenciement d'un·e salarié·e parce qu'iel est enceint·e ou la retraite f
 
 ### Déloyauté
 
-La loi au Québec demande qu'un·e salarié·e soit "loyal·e" envers leur employeur. Ceci veut dire que selon la loi, en tant qu'employé·e vous êtes obligé·e de:
+La loi au Québec demande qu'un·e salarié·e soit "loyal·e" envers son employeur. Ceci veut dire que selon la loi, en tant qu'employé·e vous êtes obligé·e:
 
-- être honète avec votre employeur.
-- utiliser votre bon jugement dans votre rôle d'employé·e.
-- mettre les intérêts de votre employeur au-dessus des votres (avec exceptions; voir "insubordination").
-- protéger l'information confidentielle.
+- d'être honète avec votre employeur.
+- d'utiliser votre bon jugement dans votre rôle d'employé·e.
+- de mettre les intérêts de votre employeur au-dessus des votres (avec exceptions; voir "insubordination").
+- de protéger l'information confidentielle.
 
 ### Congédiement
 
@@ -61,7 +61,7 @@ Le congédiement consiste à interrompre définitivement l'emploi d'un·e salari
 
 ### Salarié·e
 
-Une personne qui travaille pour un employeur et qui a droit à un salaire. Si vous avez un contrat qui implique d'effectuer un travail en échange d'argent, vous êtes probablement considéré·e un·e salarié·e. Ceci incult, par exemple, un contrat où vous recevez une somme nette de laquelle vous déduisez vos dépenses pour les matières premières ou l'équipement et gardez le montant restant.
+Une personne qui travaille pour un employeur et qui a droit à un salaire. Si vous avez un contrat qui implique d'effectuer un travail en échange d'argent, vous êtes probablement considéré·e comme un·e salarié·e. Ceci inclut, par exemple, un contrat où vous recevez une somme nette de laquelle vous déduisez vos dépenses pour les matières premières ou l'équipement et gardez le montant restant.
 
 
 ### Employeur
@@ -97,9 +97,9 @@ Votre employeur n'a habituellement pas le droit de vous congédier directement p
 Selon la loi, nature et la gradation des sanctions peuvent varier selon les entreprises et la gravité de la faute.
 
 
-### Indemnity
+### Indemnité
 
-Somme d'argent versée au/à la salarié·e, soit pour réparer un préjudice, soit pour compenser un congé ou certains inconvénients.
+Somme d'argent versée à un·e salarié·e, soit pour réparer un préjudice, soit pour compenser un congé ou certains inconvénients.
 
 
 ### Insubordination
@@ -111,7 +111,7 @@ Vous ne pouvez pas être accusé·e d'insubordination si vous refusez d'effectue
 
 ### Préavis / Avis de cessation d'emploi
 
-Avis écrit que l'employeur est tenu de remettre au/à la salarié·e avant de mettre fin à son contrat de travail ou de le/la mettre à pied, en respectant les conditions et les délais fixés soit par la loi, soit par un contrat de travail, une convention collective, ou un décret.
+Avis écrit que l'employeur est tenu de remettre à un·e salarié·e avant de mettre fin à son contrat de travail ou de le·la mettre à pied, en respectant les conditions et les délais fixés soit par la loi, soit par un contrat de travail, une convention collective, ou un décret.
 
 ### Cadre ("Manager")
 
@@ -169,7 +169,7 @@ La faute grave peut résulter d'un seul acte ou d'une seule omission, mais égal
 
 ### Conjoint
 
-Sous la loi du Québec, les personnes qui sont liées par un mariage ou une union civile et qui cohabitent; ou de sexe différent ou de même sexe, qui vivent maritalement et sont les père et mère d'un même enfant; ou de sexe différent ou de même sexe, qui vivent maritalement depuis au moins un an.
+Sous la loi du Québec, les personnes qui sont liées par un mariage ou une union civile et qui cohabitent; ou de sexe différent ou de même sexe, qui vivent maritalement et sont parents d'un même enfant; ou de sexe différent ou de même sexe, qui vivent maritalement depuis au moins un an.
 
 
 ### Service continu
