@@ -1145,9 +1145,15 @@
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TableCaption">
 </ParagraphStyleRange>
 <Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Si la compagnie fait faillite, les employé·e·s peuvent présenter une demande au programme fédéral de protection des salariés (PPS / WEPP) pour se faire rémunérer leurs salaires impayés, y compris congés payés et indemnités de départ. - Depuis le 1er Janvier 2019, le montant maximal de cette rémunération est de 7,148.05$. - Les employé·e·s peuvent également présenter une demande à la CNESST pour les salaires impayés (mais pas pour la paie dûe en équivalence de préavis).</Content>
+    <Content>Si la compagnie fait faillite, les employé·e·s peuvent présenter une demande au programme fédéral de protection des salariés (PPS / WEPP) pour se faire rémunérer leurs salaires impayés, y compris congés payés et indemnités de départ. Depuis le 1er Janvier 2019, le montant maximal de cette rémunération est de 7,148.05$.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Les employé·e·s peuvent également présenter une demande à la CNESST pour les salaires impayés (mais pas pour la paie dûe en équivalence de préavis).</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1645,7 +1651,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Le Vendredi Saint et Pâques</Content>
+    <Content>Le Vendredi Saint ou le lundi de Pâques</Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content> - avant/après le dimanche de Pâques</Content>

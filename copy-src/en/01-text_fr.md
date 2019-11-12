@@ -201,8 +201,7 @@ Dans cette situation, l'employeur doit donner un préavis ou une paie équivalen
 | 300 ou plus               | 16 semaines    |
 +---------------------------+----------------+
 
-Si la compagnie fait faillite, les employé·e·s peuvent présenter une demande au programme fédéral de protection des salariés (PPS / WEPP) pour se faire rémunérer leurs salaires impayés, y compris congés payés et indemnités de départ.
-- Depuis le 1er Janvier 2019, le montant maximal de cette rémunération est de 7,148.05$.
+- Si la compagnie fait faillite, les employé·e·s peuvent présenter une demande au programme fédéral de protection des salariés (PPS / WEPP) pour se faire rémunérer leurs salaires impayés, y compris congés payés et indemnités de départ. Depuis le 1er Janvier 2019, le montant maximal de cette rémunération est de 7,148.05$.
 - Les employé·e·s peuvent également présenter une demande à la CNESST pour les salaires impayés (mais pas pour la paie dûe en équivalence de préavis).
 
 #### Exceptions (quand un préavis n'est pas requis):
@@ -259,7 +258,7 @@ au client — par exemple, le jour avant une date d'échéance importante.
 | 20ème semaine         |                    |
 +-----------------------+--------------------+
 | congé de maternité    | - 18 semaines non  |
-|                       |   payées          |
+|                       |   payées           |
 +-----------------------+--------------------+
 | congé de paternité    | - 5 semaines       |
 |                       |   non payées       |
@@ -316,7 +315,7 @@ Liste complète des congés et absences, avec conditions et obligations:
 Les jours de congé payés incluent:
 
 - **Le nouvel an** - 1er janvier
-- **Le Vendredi Saint et Pâques** - avant/après le dimanche de Pâques
+- **Le Vendredi Saint ou le lundi de Pâques** - avant/après le dimanche de Pâques
 - **Jour des patriotes** - Le lundi avant le 25 mai
 - **Saint Jean Baptiste** - 24 juin (Québec seulement)
 - **Jour du Canada** - 1 juillet
