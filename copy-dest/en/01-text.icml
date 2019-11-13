@@ -1348,13 +1348,13 @@
   <Cell Name="1:1" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>2 days paid</Content>
+        <Content>2 days paid*</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>26 weeks unpaid*</Content>
+        <Content>26 weeks unpaid</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1368,13 +1368,7 @@
   <Cell Name="1:2" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>2 days paid</Content>
-      </CharacterStyleRange>
-    </ParagraphStyleRange>
-    <Br />
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>8 days unpaid</Content>
+        <Content>10 days unpaid</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1494,7 +1488,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>* requires at least 3 months of uninterrupted service</Content>
+    <Content>* requires at least 3 months of uninterrupted service, can also be used for family obligations</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />

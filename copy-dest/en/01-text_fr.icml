@@ -1276,7 +1276,7 @@
 <Br />
 <Table AppliedTableStyle="TableStyle/Table" HeaderRowCount="1" BodyRowCount="9" ColumnCount="2">
   <Column Name="0" SingleColumnWidth="166.66666666666666" />
-  <Column Name="1" SingleColumnWidth="145.83333333333334" />
+  <Column Name="1" SingleColumnWidth="166.66666666666666" />
   <Cell Name="0:0" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
@@ -1301,13 +1301,13 @@
   <Cell Name="1:1" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>2 jours payés</Content>
+        <Content>2 jours payés*</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
     <Br />
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>26 semaines non payées*</Content>
+        <Content>26 semaines non payées</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1321,13 +1321,7 @@
   <Cell Name="1:2" AppliedCellStyle="CellStyle/Cell">
     <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList &gt; first" NumberingContinue="false">
       <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>2 jours payés</Content>
-      </CharacterStyleRange>
-    </ParagraphStyleRange>
-    <Br />
-    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; BulList">
-      <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-        <Content>8 jours non payés</Content>
+        <Content>10 jours non payés</Content>
       </CharacterStyleRange>
     </ParagraphStyleRange>
   </Cell>
@@ -1447,7 +1441,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>* nécessite au moins 3 mois de service non interrompu</Content>
+    <Content>* nécessite au moins 3 mois de service non interrompu, peut aussi être utilisé pour les obligations familiales</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />

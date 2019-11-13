@@ -243,11 +243,11 @@ example, the day before a big deadline.
 +-----------------------+--------------------+
 | Reason for Absence    | Leave (typical)    |
 +=======================+====================+
-| illness or injury     | - 2 days paid      |
-|                       | - 26 weeks unpaid* |
+| illness or injury     | - 2 days paid*     |
+|                       | - 26 weeks unpaid  |
 +-----------------------+--------------------+
-| family obligations    | - 2 days paid      |
-|                       | - 8 days unpaid    |
+| family obligations    | - 10 days unpaid   |
+|                       |                    |
 +-----------------------+--------------------+
 | funeral for spouse    | - 2 days paid      |
 | or close relative**   | - 3 days unpaid    |
@@ -268,7 +268,7 @@ example, the day before a big deadline.
 | parental leave***     | - 52 weeks unpaid  |
 +-----------------------+--------------------+
 
-\* requires at least 3 months of uninterrupted service
+\* requires at least 3 months of uninterrupted service, can also be used for family obligations
 
 \*\* close relatives includes parents, children, and siblings
 

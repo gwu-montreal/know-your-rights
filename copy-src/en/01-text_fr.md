@@ -233,41 +233,41 @@ au client — par exemple, le jour avant une date d'échéance importante.
 
 ## Congés et absences (Salarié·e·s)
 
-+-----------------------+--------------------+
-| Raison de l'absence   | Congé (typique)    |
-+=======================+====================+
-| maladie ou blessure   | - 2 jours payés    |
-|                       | - 26 semaines      |
-|                       |   non payées*      |
-+-----------------------+--------------------+
-| obligations familiales| - 2 jours payés    |
-|                       | - 8 jours non payés|
-+-----------------------+--------------------+
-| funéraille de         | - 2 jours payés    |
-| l'épou·se·x ou        | - 3 jours non payés|
-| famille proche**      |                    |
-+-----------------------+--------------------+
-| votre marriage ou     | - 1 jour payé      |
-| union civile          |                    |
-+-----------------------+--------------------+
-| naissance ou adoption | - 2 jours payés    |
-|                       | - 3 jours non payés|
-+-----------------------+--------------------+
-| interruption de       | - 3 semaines       |
-| grossesse avant la    |   non payées       |
-| 20ème semaine         |                    |
-+-----------------------+--------------------+
-| congé de maternité    | - 18 semaines non  |
-|                       |   payées           |
-+-----------------------+--------------------+
-| congé de paternité    | - 5 semaines       |
-|                       |   non payées       |
-+-----------------------+--------------------+
-| congé parental***     | - 52 semaines      |
-|                       |   non payées       |
-+-----------------------+--------------------+
++-----------------------+---------------------+
+| Raison de l'absence   | Congé (typique)     |
++=======================+=====================+
+| maladie ou blessure   | - 2 jours payés*    |
+|                       | - 26 semaines       |
+|                       |   non payées        |
++-----------------------+---------------------+
+| obligations familiales| - 10 jours non payés|
+|                       |                     |
++-----------------------+---------------------+
+| funéraille de         | - 2 jours payés     |
+| l'épou·se·x ou        | - 3 jours non payés |
+| famille proche**      |                     |
++-----------------------+---------------------+
+| votre marriage ou     | - 1 jour payé       |
+| union civile          |                     |
++-----------------------+---------------------+
+| naissance ou adoption | - 2 jours payés     |
+|                       | - 3 jours non payés |
++-----------------------+---------------------+
+| interruption de       | - 3 semaines        |
+| grossesse avant la    |   non payées        |
+| 20ème semaine         |                     |
++-----------------------+---------------------+
+| congé de maternité    | - 18 semaines non   |
+|                       |   payées            |
++-----------------------+---------------------+
+| congé de paternité    | - 5 semaines        |
+|                       |   non payées        |
++-----------------------+---------------------+
+| congé parental***     | - 52 semaines       |
+|                       |   non payées        |
++-----------------------+---------------------+
 
-\* nécessite au moins 3 mois de service non interrompu
+\* nécessite au moins 3 mois de service non interrompu, peut aussi être utilisé pour les obligations familiales
 
 \*\* la famille proches inclut les parents, les enfants, et les frères/soeurs/adelphes
 
